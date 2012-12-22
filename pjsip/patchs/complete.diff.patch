@@ -1,0 +1,701 @@
+Index: jni/pjsip/patches/000android_os.diff
+===================================================================
+--- jni/pjsip/patches/000android_os.diff	(revision 1544)
++++ jni/pjsip/patches/000android_os.diff	(working copy)
+@@ -193,7 +193,7 @@
+ +#	define USE_CSIPSIMPLE_HACKS 1
+ +#endif
+ +
+-+#define PJSUA_HAS_VIDEO 1
+++#define PJSUA_HAS_VIDEO 0 /* //TID it was 1 */
+ +#define PJSIP_AUTH_HEADER_CACHING   1
+ +
+ +// CSipSimple hacks
+Index: jni/csipsimple-wrapper/include/pjsua_jni_addons.h
+===================================================================
+--- jni/csipsimple-wrapper/include/pjsua_jni_addons.h	(revision 1544)
++++ jni/csipsimple-wrapper/include/pjsua_jni_addons.h	(working copy)
+@@ -181,6 +181,40 @@
+ PJ_DECL(pj_status_t) pjsua_acc_clean_all_registrations( pjsua_acc_id acc_id);
+ PJ_DECL(pj_status_t) update_transport(const pj_str_t *new_ip_addr);
+ PJ_DECL(pj_status_t) vid_set_android_window(pjsua_call_id call_id, jobject window);
++
++// TID patchs
++
++// 0012062012 patch to activate/deactivate speaker - jegumi
++PJ_DECL(pj_status_t) set_speaker(int status);
++// 0012062012 end patch
++
++// 0016012012 patch to convert pj_str_t to Java String - ggb
++PJ_DECL(jstring) pj_ptr_to_string(const pj_str_t * str);
++// 0016012012 end path
++
++//16012012 patch to add and get sip headers - jegumi
++PJ_DECL(pj_status_t) add_sip_header(pjsua_msg_data *msg_data, pj_str_t hname, pj_str_t hvalue);
++PJ_DECL(jstring) get_sip_headers(pjsip_rx_data *rdata);
++// 16012012 end patch
++
++// 0317012012 patch presence - ggb
++PJ_DECL(pj_status_t) send_request(pjsua_acc_id acc_id,
++				   const pj_str_t *method,
++				   const pj_str_t *to,
++				   const pj_str_t *mime_type,
++				   const pj_str_t *content,
++				   const pjsua_msg_data *msg_data,
++				   void *user_data);
++// 0317012012 end patch
++
++// 23022012 patch accept - jegumi
++PJ_DECL(pj_status_t) add_contact_header(pjsua_acc_id acc_id,
++                                        const pj_str_t *to, pjsip_tx_data *tdata);
++PJ_DECL(pj_status_t) add_accept_header(pjsua_msg_data *msg_data);
++// 23022012 end patch
++
++// TID patchs end
++
+ PJ_END_DECL
+ 
+ #ifdef __cplusplus
+Index: jni/csipsimple-wrapper/src/pjsua_jni_addons.c
+===================================================================
+--- jni/csipsimple-wrapper/src/pjsua_jni_addons.c	(revision 1544)
++++ jni/csipsimple-wrapper/src/pjsua_jni_addons.c	(working copy)
+@@ -248,6 +248,8 @@
+ // ---- VIDEO STUFF ---- //
+ pj_status_t vid_set_stream_window(pjsua_call_media* call_med, pjmedia_dir dir, void* window){
+ 	pj_status_t status = PJ_ENOTFOUND;
++// TID
++#if PJMEDIA_HAS_VIDEO
+ 	pjsua_vid_win *w = NULL;
+ 	pjsua_vid_win_id wid;
+ 	pjmedia_vid_dev_stream *dev;
+@@ -273,6 +275,7 @@
+ 			}
+ 		}
+ 	}
++#endif
+ 
+ 	return status;
+ }
+@@ -1055,3 +1058,335 @@
+ 	}
+ }
+ 
++// TID patchs
++
++// 0012062012 patch to activate/deactivate speaker - jegumi
++PJ_DECL(pj_status_t) set_speaker(int status) {
++	pjmedia_aud_dev_route route = (status == 1) ? PJMEDIA_AUD_DEV_ROUTE_LOUDSPEAKER : PJMEDIA_AUD_DEV_ROUTE_DEFAULT;
++	pjsua_snd_set_setting(PJMEDIA_AUD_DEV_CAP_OUTPUT_ROUTE, &route, PJ_TRUE);
++
++	return PJ_SUCCESS;
++}
++// 0012062012 end patch
++
++// 0016012012 patch to convert pj_str_t to Java String - ggb
++PJ_DECL(jstring) pj_ptr_to_string(const pj_str_t * str) {
++    jstring result = NULL;
++    char * dup_str = (char*)malloc(str->slen + 1);
++
++    strncpy(dup_str, str->ptr, str->slen);
++    dup_str[str->slen] = '\0';
++
++        JNIEnv *jni_env = 0;
++        ATTACH_JVM(jni_env);
++        result = (*jni_env)->NewStringUTF(jni_env, dup_str);
++        DETACH_JVM(jni_env);
++
++    free(dup_str);
++    return result;
++}
++
++// end path
++
++// 16012012 patch to add and get sip headers - jegumi
++PJ_DEF(pj_status_t)
++add_sip_header(pjsua_msg_data *msg_data,
++               pj_str_t hname,
++               pj_str_t hvalue) {
++
++  PJ_LOG(2, (THIS_FILE,"Creating new Header"));
++  pjsip_endpoint *endpt = pjsua_get_pjsip_endpt();
++  pj_pool_t * pool = pjsip_endpt_create_pool(endpt, "New Header", 100, 100);
++  pjsip_generic_string_hdr * header = pjsip_generic_string_hdr_create(pool, &hname, &hvalue);
++  pj_list_push_back(&msg_data->hdr_list, header);
++
++  return PJ_SUCCESS;
++}
++
++PJ_DEF(jstring)
++get_sip_headers(pjsip_rx_data *rdata) {
++
++  int len;
++  int lenHeader;
++  jstring result = NULL;
++  char *buf;
++  char str1[512];
++
++  PJ_LOG(2, (THIS_FILE,"Getting headers"));
++
++  pjsip_hdr *header = &rdata->msg_info.msg->hdr;
++  pjsip_generic_string_hdr *string_hdr = (pjsip_generic_string_hdr*) header;
++
++  len = rdata->msg_info.len;
++  buf = (char*)malloc(len);
++  memset(buf,'\0',len);
++
++  do {
++    if (string_hdr->type == PJSIP_H_OTHER) {
++      lenHeader = pjsip_hdr_print_on(string_hdr, str1, len);
++      if (lenHeader > 0) {
++        strcat(buf, str1);
++        strcat(buf, "\r\n");
++      }
++    }
++    string_hdr = string_hdr->next;
++  } while ((pjsip_hdr*)string_hdr != header && string_hdr != NULL);
++
++  JNIEnv *jni_env = 0;
++  ATTACH_JVM(jni_env);
++  result = (*jni_env)->NewStringUTF(jni_env, buf);
++  DETACH_JVM(jni_env);
++
++  free(buf);
++  return result;
++}
++
++// 16012012 end patch
++
++void on_send_request_status_wrapper(pjsip_status_code status, const pj_str_t *reason, const pj_str_t *mime_type, const pj_str_t *body);
++
++static void send_request_status(void *token, pjsip_event *e) {
++
++    if (e->type != PJSIP_EVENT_TSX_STATE) {
++        return;
++    }
++
++    pjsip_transaction *tsx = e->body.tsx_state.tsx;
++
++    /* Ignore provisional response, if any */
++    if (tsx->status_code < 200) {
++       return;
++    }
++
++     /* Handle authentication challenges */
++     if (e->body.tsx_state.type == PJSIP_EVENT_RX_MSG &&
++	    (tsx->status_code == 401 || tsx->status_code == 407)) {
++	    pjsip_rx_data *rdata = e->body.tsx_state.src.rdata;
++	    pjsip_tx_data *tdata;
++	    pjsip_auth_clt_sess auth;
++	    pj_status_t status;
++
++	    PJ_LOG(4,(THIS_FILE, "Resending Request with authentication"));
++
++	    /* Create temporary authentication session */
++	    pjsip_auth_clt_init(&auth,pjsua_var.endpt,rdata->tp_info.pool, 0);
++
++            //TID: Assuming just one account
++            int acc_id = 0;
++	    pjsip_auth_clt_set_credentials(&auth,
++		pjsua_var.acc[acc_id].cred_cnt,
++		pjsua_var.acc[acc_id].cred);
++
++	    pjsip_auth_clt_set_prefs(&auth,
++				     &pjsua_var.acc[acc_id].cfg.auth_pref);
++
++	    status = pjsip_auth_clt_reinit_req(&auth, rdata, tsx->last_tx,
++					       &tdata);
++	    if (status == PJ_SUCCESS) {
++
++		    /* Increment CSeq */
++		    PJSIP_MSG_CSEQ_HDR(tdata->msg)->cseq++;
++
++		    /* Re-send request */
++		    status = pjsip_endpt_send_request( pjsua_var.endpt, tdata, -1,
++						       NULL, &send_request_status);
++		    if (status == PJ_SUCCESS) {
++		        /* Done */
++		        return;
++		    }
++	    }
++	}
++
++        pjsip_rx_data *rdata;
++        pj_str_t mime_type;
++        pj_str_t body;
++
++	if (tsx->status_code/100 == 2) {
++	    PJ_LOG(4,(THIS_FILE, "Message delivered successfully"));
++            if (e->body.tsx_state.type == PJSIP_EVENT_RX_MSG) {
++	      rdata = e->body.tsx_state.src.rdata;
++              pjsip_msg_body *msg_body = rdata->msg_info.msg->body;
++              if (msg_body != NULL) {
++                char buf[256];
++                mime_type.ptr = buf;
++                pjsip_media_type * m = &msg_body->content_type;
++	        mime_type.slen = pj_ansi_snprintf(buf, sizeof(buf),
++   					      "%.*s/%.*s",
++					      (int)m->type.slen,
++					      m->type.ptr,
++					      (int)m->subtype.slen,
++					      m->subtype.ptr);
++    	       if (mime_type.slen < 1) {
++                 mime_type.slen = 0;
++               }
++
++               body.ptr = (char*)msg_body->data;
++               body.slen = msg_body->len;
++            }
++          }
++
++          on_send_request_status_wrapper(tsx->status_code,
++                                      &tsx->status_text,
++                                      &mime_type,
++                                      &body);
++	} else {
++	    PJ_LOG(3,(THIS_FILE, "Failed to deliver message"));
++	}
++}
++
++// 23022012 patch accept - jegumi
++PJ_DEF(pj_status_t)
++add_contact_header(pjsua_acc_id acc_id,
++                   const pj_str_t *to,
++                   pjsip_tx_data *tdata) {
++    PJ_LOG(2, (THIS_FILE,"Adding Contact Header"));
++
++    const pj_str_t STR_CONTACT = { "Contact", 7 };
++    pj_str_t contact;
++    pj_status_t status;
++
++    pjsip_accept_hdr *accept_hdr = pjsip_accept_hdr_create(tdata->pool);
++    if (accept_hdr) {
++        accept_hdr->values[0] = pj_str("application/jj-presence+xml");
++        accept_hdr->count = 1;
++
++       pjsip_msg_add_hdr(tdata->msg,(pjsip_hdr*)accept_hdr);
++    }
++
++    pjsip_expires_hdr *expires_hdr = pjsip_expires_hdr_create(tdata->pool, 0);
++    if (expires_hdr) {
++        pjsip_msg_add_hdr(tdata->msg, (pjsip_hdr*)expires_hdr);
++    }
++
++    pjsip_event_hdr *event_hdr = pjsip_event_hdr_create(tdata->pool);
++    if (event_hdr) {
++        event_hdr->event_type = pj_str("presence");
++        pjsip_msg_add_hdr(tdata->msg, (pjsip_hdr*)event_hdr);
++    }
++
++
++    status = pjsua_acc_create_uac_contact(tdata->pool, &contact, acc_id, to);
++    if (status != PJ_SUCCESS) {
++	pjsua_perror(THIS_FILE, "Unable to generate Contact header", status);
++	pjsip_tx_data_dec_ref(tdata);
++	return status;
++    }
++
++    pjsip_msg_add_hdr( tdata->msg, (pjsip_hdr*)
++	pjsip_generic_string_hdr_create(tdata->pool,
++					&STR_CONTACT, &contact));
++    return PJ_SUCCESS;
++}
++
++PJ_DEF(pj_status_t)
++add_accept_header(pjsua_msg_data *msg_data) {
++    PJ_LOG(2, (THIS_FILE,"Adding Accept Header"));
++
++    pjsip_endpoint *endpt = pjsua_get_pjsip_endpt();
++    pj_pool_t *pool = pjsip_endpt_create_pool(endpt, "Accept Header", 100, 100);
++    pjsip_accept_hdr *accept_hdr = pjsip_accept_hdr_create(pool);
++    if (accept_hdr) {
++        accept_hdr->values[0] = pj_str("application/jj-presence+xml");
++        accept_hdr->count = 1;
++
++        pj_list_push_back(&msg_data->hdr_list, accept_hdr);
++    }
++
++    return PJ_SUCCESS;
++}
++// 23022012 end patch
++
++PJ_DEF(pj_status_t)
++send_request(pjsua_acc_id acc_id,
++             const pj_str_t *method,
++	     const pj_str_t *to,
++	     const pj_str_t *mime_type,
++	     const pj_str_t *content,
++	     const pjsua_msg_data *msg_data,
++	     void *user_data) {
++
++    PJ_LOG(2, (THIS_FILE,"Send Request presence", &msg_data->msg_body.ptr));
++
++    const pj_str_t mime_text_plain = pj_str("text/plain");
++    const pj_str_t content_default = pj_str("");
++
++    pjsip_tx_data *tdata;
++    pjsip_media_type media_type;
++    pjsua_acc *acc;
++    pj_status_t status;
++
++    /* To and message body must be specified. */
++    PJ_ASSERT_RETURN(method && to, PJ_EINVAL);
++
++    acc = &pjsua_var.acc[acc_id];
++    pjsip_method pj_method;
++    pjsip_method_init(&pj_method, css_var.pool, method);
++
++    /* Create request. */
++    status = pjsip_endpt_create_request(pjsua_var.endpt,
++					&pj_method, to,
++					&acc->cfg.id,
++					to, NULL, NULL, -1, NULL, &tdata);
++    if (status != PJ_SUCCESS) {
++	pjsua_perror(THIS_FILE, "Unable to create request", status);
++	return status;
++    }
++
++    /* If account is locked to specific transport, then set transport to
++     * the request.
++     */
++    if (acc->cfg.transport_id != PJSUA_INVALID_ID) {
++	pjsip_tpselector tp_sel;
++
++	pjsua_init_tpselector(acc->cfg.transport_id, &tp_sel);
++	pjsip_tx_data_set_transport(tdata, &tp_sel);
++    }
++
++    // jegumi - adding contact header
++    add_contact_header(acc_id, to, tdata);
++
++    /* Set default media type if none is specified */
++
++   if (mime_type == NULL) {
++	mime_type = &mime_text_plain;
++    }
++
++    if (content == NULL) {
++    	content = &content_default;
++    }
++
++    if (mime_type != NULL && content != NULL) {
++        /* Parse MIME type */
++        pjsua_parse_media_type(tdata->pool, mime_type, &media_type);
++        /* Add message body */
++        tdata->msg->body = pjsip_msg_body_create( tdata->pool, &media_type.type,
++					          &media_type.subtype,
++					          content);
++        if (tdata->msg->body == NULL) {
++	    pjsua_perror(THIS_FILE, "Unable to create msg body", PJ_ENOMEM);
++	    pjsip_tx_data_dec_ref(tdata);
++	    return PJ_ENOMEM;
++        }
++    }
++
++    /* Add additional headers etc. */
++    pjsua_process_msg_data(tdata, msg_data);
++
++    /* Add route set */
++    pjsua_set_msg_route_set(tdata, &acc->route_set);
++
++    /* Send request (statefully) */
++    status = pjsip_endpt_send_request(pjsua_var.endpt, tdata, -1,
++				       user_data, &send_request_status);
++    if (status != PJ_SUCCESS) {
++	pjsua_perror(THIS_FILE, "Unable to send request", status);
++	return status;
++    }
++
++    return PJ_SUCCESS;
++}
++
++// end patch
++
++// TID patchs end
++
+Index: jni/swig-glue/pjsua.i_header
+===================================================================
+--- jni/swig-glue/pjsua.i_header	(revision 1544)
++++ jni/swig-glue/pjsua.i_header	(working copy)
+@@ -172,7 +172,26 @@
+ 	virtual int timer_schedule(int entry, int entryId, int time) {}
+ 	virtual int timer_cancel(int entry, int entryId) {}
+ //#endif
++
++
++// TID patchs 
++ 
++// 20052012 jegumi transport state
++	virtual void on_transport_state(pjsip_transport *tp, 
++			       pjsip_transport_state state,
++			       const pjsip_transport_state_info *info) {}
++// 20052012	end patch		       		       
++
++// 0319012012 patch for the presence - ggb
++       virtual void on_send_request_status (
++                pjsip_status_code status,
++		const pj_str_t *reason,
++                const pj_str_t *mime_type,
++                const pj_str_t *body) {}
++// 0319012012 end patch
+ 	
++// TID patchs end	
++	
+ };
+ 
+ static Callback* registeredCallbackObject = NULL;
+@@ -393,8 +412,26 @@
+ }
+ //#endif
+ 
++// TID patchs
++
++// jegumi transport state
++void on_transport_state_wrapper(pjsip_transport *tp, 
++		        pjsip_transport_state state,
++			const pjsip_transport_state_info *info) {
++ 	registeredCallbackObject->on_transport_state(tp, 
++			       state,
++			       info);	
+ }
+ 
++// 0319012012 patch for presence
++void on_send_request_status_wrapper(pjsip_status_code status, const pj_str_t *reason, const pj_str_t *mime_type, const pj_str_t *body) {
++    registeredCallbackObject->on_send_request_status(status, reason, mime_type, body);
++}
++// 0319012012 end patch
++
++// TID patchs end
++}
++
+ static struct pjsua_callback wrapper_callback_struct = {
+ 	&on_call_state_wrapper,
+ 	&on_incoming_call_wrapper,
+@@ -427,8 +464,9 @@
+ 	&on_nat_detect_wrapper,
+ 	&on_call_redirected_wrapper,
+ 	&on_mwi_info_wrapper,
++	on_transport_state_wrapper, // TID patch - 20052012 jegumi
+ 	NULL, //on_call_media_transport_state
+-	NULL, //on_transport_state
++	// NULL, //on_transport_state // TID patch - 20052012 jegumi
+ 	NULL, //on_ice_transport_error
+ 	NULL, //on_snd_dev_operation
+ 	NULL, //on_call_media_event
+@@ -534,6 +572,21 @@
+ 	virtual int timer_cancel(int entry, int entryId);
+ //#endif
+ 
++// TID patchs 
++
++// 0319012012 patch for the presence - ggb
++        virtual void on_send_request_status (
++		pjsip_status_code status,
++		const pj_str_t *reason,
++        const pj_str_t *mime_type,
++        const pj_str_t *body);
++
++// jegumi transport state
++	virtual void on_transport_state(pjsip_transport *tp, 
++			       pjsip_transport_state state,
++			       const pjsip_transport_state_info *info);
++
++// TID patchs end
+ };
+ 
+ %constant struct pjsua_callback* WRAPPER_CALLBACK_STRUCT = &wrapper_callback_struct;
+@@ -632,8 +685,6 @@
+ } pjmedia_port;
+ 
+ 
+-
+-
+ // From pjmedia/include/pjmedia/types.h:97
+ enum pjmedia_dir
+ {
+@@ -1375,3 +1426,120 @@
+     PJRPID_ACTIVITY_BUSY
+ 
+ };
++
++// TID patchs
++
++// 16012012 patch to add and get sip headers - jegumi
++
++
++// from pjsip/include/pjsip/pjsua_lib/pjsua.h:1625
++struct pjsua_msg_data
++{
++    pjsip_hdr	hdr_list;
++    pj_str_t	content_type;
++    pj_str_t	msg_body;
++    pjsip_media_type  multipart_ctype;
++    pjsip_multipart_part multipart_parts;
++};
++
++// from audiodev.h 89
++typedef enum pjmedia_aud_dev_cap
++{
++    PJMEDIA_AUD_DEV_CAP_EXT_FORMAT = 1,
++    PJMEDIA_AUD_DEV_CAP_INPUT_LATENCY = 2,
++    PJMEDIA_AUD_DEV_CAP_OUTPUT_LATENCY = 4,
++    PJMEDIA_AUD_DEV_CAP_INPUT_VOLUME_SETTING = 8,
++    PJMEDIA_AUD_DEV_CAP_OUTPUT_VOLUME_SETTING = 16,
++    PJMEDIA_AUD_DEV_CAP_INPUT_SIGNAL_METER = 32,
++    PJMEDIA_AUD_DEV_CAP_OUTPUT_SIGNAL_METER = 64,
++    PJMEDIA_AUD_DEV_CAP_INPUT_ROUTE = 128,
++    PJMEDIA_AUD_DEV_CAP_OUTPUT_ROUTE = 256,
++    PJMEDIA_AUD_DEV_CAP_EC = 512,
++    PJMEDIA_AUD_DEV_CAP_EC_TAIL = 1024,
++    PJMEDIA_AUD_DEV_CAP_VAD = 2048,
++    PJMEDIA_AUD_DEV_CAP_CNG = 4096,
++    PJMEDIA_AUD_DEV_CAP_PLC = 8192,
++    PJMEDIA_AUD_DEV_CAP_MAX = 16384
++} pjmedia_aud_dev_cap;
++
++// from audiodev.h 197
++typedef enum pjmedia_aud_dev_route
++{
++    PJMEDIA_AUD_DEV_ROUTE_DEFAULT = 0,
++    PJMEDIA_AUD_DEV_ROUTE_LOUDSPEAKER = 1,
++    PJMEDIA_AUD_DEV_ROUTE_EARPIECE = 2,
++    PJMEDIA_AUD_DEV_ROUTE_BLUETOOTH = 4
++} pjmedia_aud_dev_route;
++
++// from pjsip/include/pjsip/sip_transport.h:1249
++typedef enum pjsip_transport_state
++{
++    PJSIP_TP_STATE_CONNECTED,	    /**< Transport connected, applicable only
++					 to connection-oriented transports
++					 such as TCP and TLS.		    */
++    PJSIP_TP_STATE_DISCONNECTED	    /**< Transport disconnected, applicable
++					 only to connection-oriented 
++					 transports such as TCP and TLS.    */
++} pjsip_transport_state;
++
++// from pjsip/include/pjsip/sip_transport.h:1268
++typedef struct pjsip_transport_state_info {
++    pj_status_t		 status;
++    void		*ext_info;
++    void		*user_data;
++
++} pjsip_transport_state_info;
++
++// from pjsip/include/pjsip/sip_transport.h:281
++struct pjsip_rx_data
++{
++    struct  
++    {
++	pj_pool_t		*pool;
++	pjsip_transport		*transport;
++	void			*tp_data;
++	pjsip_rx_data_op_key	 op_key;
++    } tp_info;
++
++    struct
++    {
++	pj_time_val		 timestamp;
++	char			 packet[PJSIP_MAX_PKT_LEN];
++	pj_uint32_t		 zero;
++	pj_ssize_t		 len;
++	pj_sockaddr		 src_addr;
++	int			 src_addr_len;
++	char			 src_name[PJ_INET6_ADDRSTRLEN];
++	int			 src_port;
++    } pkt_info;
++
++    struct
++    {
++	char			*msg_buf;
++	int			 len;
++	pjsip_msg		*msg;
++	char			*info;
++	pjsip_cid_hdr		*cid;
++	pjsip_from_hdr		*from;
++	pjsip_to_hdr		*to;
++	pjsip_via_hdr		*via;
++	pjsip_cseq_hdr		*cseq;
++	pjsip_max_fwd_hdr	*max_fwd;
++	pjsip_route_hdr		*route;
++	pjsip_rr_hdr		*record_route;
++	pjsip_ctype_hdr		*ctype;
++	pjsip_clen_hdr		*clen;
++	pjsip_require_hdr	*require;
++	pjsip_supported_hdr	*supported;
++	pjsip_parser_err_report parse_err;
++    } msg_info;
++    
++    struct
++    {
++	void	*mod_data[PJSIP_MAX_MODULE];
++    } endpt_info;
++};
++
++// 16012012 end patch
++
++// TID patchs end
+Index: jni/swig-glue/Makefile
+===================================================================
+--- jni/swig-glue/Makefile	(revision 1544)
++++ jni/swig-glue/Makefile	(working copy)
+@@ -17,7 +17,7 @@
+ CFLAGS=-DPJMEDIA_HAS_SRTP=1 -DPJ_HAS_SSL_SOCK=1 -DPJMEDIA_HAS_ZRTP=1 -DUSE_CSIPSIMPLE=1
+ 
+ # Swig version to use - may be changed according to OS
+-SWIG=swig2.0
++SWIG=swig
+ 
+ all : ${C_TARGET_DIR}/pjsua_wrap.cpp ${JAVA_PACKAGE_DIR}
+ 
+Index: jni/Application.mk
+===================================================================
+--- jni/Application.mk	(revision 1544)
++++ jni/Application.mk	(working copy)
+@@ -15,25 +15,24 @@
+ APP_ABI := armeabi armeabi-v7a x86 mips
+ endif
+ 
+-
+-
+ MY_USE_CSIPSIMPLE := 1
+ 
+-MY_USE_G729 := 1
++# // TID
++MY_USE_G729 := 0
+ MY_USE_ILBC := 0
+-MY_USE_G722 := 1
+-MY_USE_G7221 := 1
++MY_USE_G722 := 0
++MY_USE_G7221 := 0
+ MY_USE_SPEEX := 1
+-MY_USE_GSM := 1
+-MY_USE_SILK := 1
+-MY_USE_CODEC2 := 1
++MY_USE_GSM := 0
++MY_USE_SILK := 0
++MY_USE_CODEC2 := 0
+ MY_USE_TLS := 1
+ MY_USE_WEBRTC := 1
+-MY_USE_AMR := 1
+-MY_USE_G726 := 1
+-MY_USE_OPUS := 1
++MY_USE_AMR := 0
++MY_USE_G726 := 0
++MY_USE_OPUS := 0
+ 
+-MY_USE_VIDEO := 1
++MY_USE_VIDEO := 0
+ 
+ MY_USE_STATIC_SSL := 0
+ 
+Index: jni/pjsip/sources/pjsip/include/pjsip/sip_config.h
+===================================================================
+--- jni/pjsip/sources/pjsip/include/pjsip/sip_config.h	(revision 4131)
++++ jni/pjsip/sources/pjsip/include/pjsip/sip_config.h	(working copy)
+@@ -244,7 +244,7 @@
+  * containing presence information can be quite large (>1500).
+  */
+ #ifndef PJSIP_MAX_PKT_LEN
+-#   define PJSIP_MAX_PKT_LEN		4000
++#   define PJSIP_MAX_PKT_LEN		60000
+ #endif

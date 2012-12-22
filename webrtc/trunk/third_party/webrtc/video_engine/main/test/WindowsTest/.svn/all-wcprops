@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2051/stable/src/video_engine/main/test/WindowsTest
+END
+StdAfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/StdAfx.h
+END
+renderStartImage.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/renderStartImage.jpg
+END
+WindowsTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/WindowsTest.h
+END
+ChannelDlg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2051/stable/src/video_engine/main/test/WindowsTest/ChannelDlg.cc
+END
+WindowsTestResouce.rc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/WindowsTestResouce.rc
+END
+videosize.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/videosize.cc
+END
+ChannelDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/ChannelDlg.h
+END
+ChannelPool.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/ChannelPool.cc
+END
+VideoSize.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/VideoSize.h
+END
+WindowsTestResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/WindowsTestResource.h
+END
+ChannelPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/ChannelPool.h
+END
+CaptureDevicePool.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2051/stable/src/video_engine/main/test/WindowsTest/CaptureDevicePool.cc
+END
+windowstest.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/windowstest.gypi
+END
+CaptureDevicePool.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/CaptureDevicePool.h
+END
+captureDeviceImage.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/captureDeviceImage.jpg
+END
+Capture.rc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/Capture.rc
+END
+renderTimeoutImage.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/renderTimeoutImage.jpg
+END
+tbExternalTransport.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2051/stable/src/video_engine/main/test/WindowsTest/tbExternalTransport.cc
+END
+WindowsTestMainDlg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/WindowsTestMainDlg.cc
+END
+tbExternalTransport.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/tbExternalTransport.h
+END
+WindowsTestMainDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/WindowsTestMainDlg.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/WindowsTest/resource.h
+END
+WindowsTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2051/stable/src/video_engine/main/test/WindowsTest/WindowsTest.cc
+END

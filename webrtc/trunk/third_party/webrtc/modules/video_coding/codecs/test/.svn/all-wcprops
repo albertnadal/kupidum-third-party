@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2051/stable/src/modules/video_coding/codecs/test
+END
+stats_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/stats_unittest.cc
+END
+stats.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1878/stable/src/modules/video_coding/codecs/test/stats.cc
+END
+stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/stats.h
+END
+predictive_packet_manipulator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/predictive_packet_manipulator.cc
+END
+packet_manipulator_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/packet_manipulator_unittest.cc
+END
+predictive_packet_manipulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/predictive_packet_manipulator.h
+END
+packet_manipulator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/packet_manipulator.cc
+END
+packet_manipulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/packet_manipulator.h
+END
+videoprocessor_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/videoprocessor_unittest.cc
+END
+video_codecs_test_framework.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/video_codecs_test_framework.gypi
+END
+videoprocessor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2051/stable/src/modules/video_coding/codecs/test/videoprocessor.cc
+END
+videoprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/test/videoprocessor.h
+END
+videoprocessor_integrationtest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1973/stable/src/modules/video_coding/codecs/test/videoprocessor_integrationtest.cc
+END

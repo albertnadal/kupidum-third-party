@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86
+END
+loopfilter_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/loopfilter_mmx.asm
+END
+filter_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/filter_x86.h
+END
+recon_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/recon_sse2.asm
+END
+recon_wrapper_sse2.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/recon_wrapper_sse2.c
+END
+postproc_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/postproc_sse2.asm
+END
+subpixel_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/subpixel_x86.h
+END
+iwalsh_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/iwalsh_mmx.asm
+END
+idctllm_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/idctllm_mmx.asm
+END
+idct_blk_sse2.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/idct_blk_sse2.c
+END
+loopfilter_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/loopfilter_sse2.asm
+END
+subpixel_ssse3.asm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/subpixel_ssse3.asm
+END
+subpixel_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/subpixel_mmx.asm
+END
+recon_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/recon_x86.h
+END
+x86_systemdependent.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/x86_systemdependent.c
+END
+iwalsh_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/iwalsh_sse2.asm
+END
+idctllm_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/idctllm_sse2.asm
+END
+loopfilter_block_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/loopfilter_block_sse2.asm
+END
+dequantize_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/dequantize_x86.h
+END
+postproc_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/postproc_x86.h
+END
+loopfilter_x86.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/loopfilter_x86.c
+END
+recon_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/recon_mmx.asm
+END
+subpixel_sse2.asm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/subpixel_sse2.asm
+END
+dequantize_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/dequantize_mmx.asm
+END
+postproc_mmx.asm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/postproc_mmx.asm
+END
+loopfilter_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/loopfilter_x86.h
+END
+filter_x86.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/filter_x86.c
+END
+idct_blk_mmx.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/idct_blk_mmx.c
+END
+idct_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/idct_x86.h
+END
+vp8_asm_stubs.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/x86/vp8_asm_stubs.c
+END

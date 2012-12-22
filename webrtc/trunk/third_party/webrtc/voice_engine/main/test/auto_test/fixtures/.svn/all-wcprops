@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2285/stable/src/voice_engine/main/test/auto_test/fixtures
+END
+after_initialization_fixture.cc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1659/stable/src/voice_engine/main/test/auto_test/fixtures/after_initialization_fixture.cc
+END
+before_initialization_fixture.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2285/stable/src/voice_engine/main/test/auto_test/fixtures/before_initialization_fixture.cc
+END
+after_initialization_fixture.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1659/stable/src/voice_engine/main/test/auto_test/fixtures/after_initialization_fixture.h
+END
+after_streaming_fixture.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2285/stable/src/voice_engine/main/test/auto_test/fixtures/after_streaming_fixture.cc
+END
+before_initialization_fixture.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1659/stable/src/voice_engine/main/test/auto_test/fixtures/before_initialization_fixture.h
+END
+after_streaming_fixture.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2285/stable/src/voice_engine/main/test/auto_test/fixtures/after_streaming_fixture.h
+END

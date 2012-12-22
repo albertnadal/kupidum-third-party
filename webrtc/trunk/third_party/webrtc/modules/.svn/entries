@@ -1,0 +1,107 @@
+10
+
+dir
+2291
+http://webrtc.googlecode.com/svn/stable/src/modules
+http://webrtc.googlecode.com/svn
+
+
+
+2012-05-24T09:59:03.023992Z
+2288
+niklas.enbom@webrtc.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4adac7df-926f-26a2-2b94-8c16560cd09d
+
+audio_device
+dir
+
+audio_coding
+dir
+
+video_coding
+dir
+
+video_capture
+dir
+
+audio_conference_mixer
+dir
+
+bitrate_controller
+dir
+
+rtp_rtcp
+dir
+
+audio_processing
+dir
+
+interface
+dir
+
+video_processing
+dir
+
+utility
+dir
+
+udp_transport
+dir
+
+video_render
+dir
+
+modules.gyp
+file
+
+
+
+
+2012-07-24T13:36:21.000000Z
+6d123d421fc1fdb91d60a6fe69a147af
+2012-04-23T22:57:22.558430Z
+2102
+elham@webrtc.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2641
+
+documentation
+dir
+
+media_file
+dir
+

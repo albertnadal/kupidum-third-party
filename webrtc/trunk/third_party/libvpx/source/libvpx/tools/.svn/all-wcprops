@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/122996/trunk/deps/third_party/libvpx/source/libvpx/tools
+END
+author_first_release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/122996/trunk/deps/third_party/libvpx/source/libvpx/tools/author_first_release.sh
+END
+gen_authors.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/122996/trunk/deps/third_party/libvpx/source/libvpx/tools/gen_authors.sh
+END

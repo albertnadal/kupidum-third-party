@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/modules/arch
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/modules/arch/Makefile.inc
+END
+yasm_arch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/arch/yasm_arch.xml
+END

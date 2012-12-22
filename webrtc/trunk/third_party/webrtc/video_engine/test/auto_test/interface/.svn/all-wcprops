@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2130/stable/src/video_engine/test/auto_test/interface
+END
+vie_window_creator.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1973/stable/src/video_engine/test/auto_test/interface/vie_window_creator.h
+END
+vie_autotest_linux.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_autotest_linux.h
+END
+vie_window_manager_factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_window_manager_factory.h
+END
+vie_autotest_android.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_autotest_android.h
+END
+vie_autotest.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1747/stable/src/video_engine/test/auto_test/interface/vie_autotest.h
+END
+vie_autotest_window_manager_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_autotest_window_manager_interface.h
+END
+vie_file_based_comparison_tests.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_file_based_comparison_tests.h
+END
+vie_autotest_mac_cocoa.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2130/stable/src/video_engine/test/auto_test/interface/vie_autotest_mac_cocoa.h
+END
+vie_autotest_mac_carbon.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_autotest_mac_carbon.h
+END
+vie_autotest_main.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2130/stable/src/video_engine/test/auto_test/interface/vie_autotest_main.h
+END
+vie_autotest_windows.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1659/stable/src/video_engine/test/auto_test/interface/vie_autotest_windows.h
+END
+vie_autotest_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1878/stable/src/video_engine/test/auto_test/interface/vie_autotest_defines.h
+END

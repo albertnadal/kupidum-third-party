@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder
+END
+decoderthreading.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/decoderthreading.h
+END
+error_concealment.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/error_concealment.c
+END
+detokenize.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/detokenize.c
+END
+reconintra_mt.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/reconintra_mt.c
+END
+threading.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/threading.c
+END
+error_concealment.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/error_concealment.h
+END
+detokenize.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/detokenize.h
+END
+dboolhuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/dboolhuff.c
+END
+reconintra_mt.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/reconintra_mt.h
+END
+dboolhuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/dboolhuff.h
+END
+onyxd_if.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/onyxd_if.c
+END
+onyxd_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/onyxd_int.h
+END
+ec_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/ec_types.h
+END
+asm_dec_offsets.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/asm_dec_offsets.c
+END
+decodemv.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/decodemv.c
+END
+treereader.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/treereader.h
+END
+decodframe.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/decodframe.c
+END
+decodemv.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/decoder/decodemv.h
+END

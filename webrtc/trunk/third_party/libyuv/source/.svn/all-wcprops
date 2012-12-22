@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/247/trunk/source
+END
+format_conversion.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/234/trunk/source/format_conversion.cc
+END
+rotate.cc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/234/trunk/source/rotate.cc
+END
+rotate_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/101/trunk/source/rotate_priv.h
+END
+convert_from.cc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/234/trunk/source/convert_from.cc
+END
+cpu_id.cc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/238/trunk/source/cpu_id.cc
+END
+convertfrom.cc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/189/trunk/source/convertfrom.cc
+END
+planar_functions.cc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/244/trunk/source/planar_functions.cc
+END
+row.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/244/trunk/source/row.h
+END
+rotate_neon.cc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/247/trunk/source/rotate_neon.cc
+END
+video_common.cc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/207/trunk/source/video_common.cc
+END
+row_common.cc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/244/trunk/source/row_common.cc
+END
+convert.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/234/trunk/source/convert.cc
+END
+row_win.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/245/trunk/source/row_win.cc
+END
+row_neon.cc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/246/trunk/source/row_neon.cc
+END
+compare.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/241/trunk/source/compare.cc
+END
+mjpeg_decoder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/225/trunk/source/mjpeg_decoder.cc
+END
+scale.cc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/247/trunk/source/scale.cc
+END
+row_posix.cc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/244/trunk/source/row_posix.cc
+END

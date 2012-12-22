@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/145/trunk/talk/app/webrtc
+END
+peerconnectioninterface_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnectioninterface_unittest.cc
+END
+roapmessages.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/126/trunk/talk/app/webrtc/roapmessages.h
+END
+roaperrorcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/102/trunk/talk/app/webrtc/roaperrorcodes.h
+END
+mediastreamhandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/144/trunk/talk/app/webrtc/mediastreamhandler.h
+END
+videotrack.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/117/trunk/talk/app/webrtc/videotrack.cc
+END
+webrtcsession.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/141/trunk/talk/app/webrtc/webrtcsession.h
+END
+webrtcsdp_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/141/trunk/talk/app/webrtc/webrtcsdp_unittest.cc
+END
+roapsignaling.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/144/trunk/talk/app/webrtc/roapsignaling.cc
+END
+videotrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/144/trunk/talk/app/webrtc/videotrack.h
+END
+roapsignaling.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/126/trunk/talk/app/webrtc/roapsignaling.h
+END
+peerconnectionfactory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnectionfactory.cc
+END
+peerconnectionfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnectionfactory.h
+END
+roapsession.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/133/trunk/talk/app/webrtc/roapsession.cc
+END
+roapsession.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/talk/app/webrtc/roapsession.h
+END
+jsepsessiondescription_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/141/trunk/talk/app/webrtc/jsepsessiondescription_unittest.cc
+END
+peerconnection_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnection_unittest.cc
+END
+mediastreaminterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastreaminterface.h
+END
+jsepicecandidate.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/141/trunk/talk/app/webrtc/jsepicecandidate.cc
+END
+videorendererimpl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/118/trunk/talk/app/webrtc/videorendererimpl.cc
+END
+notifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/144/trunk/talk/app/webrtc/notifier.h
+END
+jsepicecandidate.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/141/trunk/talk/app/webrtc/jsepicecandidate.h
+END
+mediastreamtrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/144/trunk/talk/app/webrtc/mediastreamtrack.h
+END
+mediastreamtrackproxy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/103/trunk/talk/app/webrtc/mediastreamtrackproxy.cc
+END
+webrtc.scons
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/144/trunk/talk/app/webrtc/webrtc.scons
+END
+mediastreamsignaling_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/144/trunk/talk/app/webrtc/mediastreamsignaling_unittest.cc
+END
+audiotrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/144/trunk/talk/app/webrtc/audiotrack.h
+END
+roapmessages_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/126/trunk/talk/app/webrtc/roapmessages_unittest.cc
+END
+mediastreamhandler_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/144/trunk/talk/app/webrtc/mediastreamhandler_unittest.cc
+END
+webrtcsession_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/141/trunk/talk/app/webrtc/webrtcsession_unittest.cc
+END
+webrtcsession.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/144/trunk/talk/app/webrtc/webrtcsession.cc
+END
+mediastream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastream.cc
+END
+roapsignaling_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/144/trunk/talk/app/webrtc/roapsignaling_unittest.cc
+END
+mediastream.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/144/trunk/talk/app/webrtc/mediastream.h
+END
+webrtcsdp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/141/trunk/talk/app/webrtc/webrtcsdp.cc
+END
+mediastreamproxy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastreamproxy.cc
+END
+peerconnectioninterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnectioninterface.h
+END
+webrtcsdp.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/133/trunk/talk/app/webrtc/webrtcsdp.h
+END
+mediastreamproxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastreamproxy.h
+END
+peerconnectionfactory_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnectionfactory_unittest.cc
+END
+jsep.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/141/trunk/talk/app/webrtc/jsep.h
+END
+roapsession_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/133/trunk/talk/app/webrtc/roapsession_unittest.cc
+END
+fakeportallocatorfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/144/trunk/talk/app/webrtc/fakeportallocatorfactory.h
+END
+mediastreamprovider.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastreamprovider.h
+END
+streamcollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/145/trunk/talk/app/webrtc/streamcollection.h
+END
+jsepsessiondescription.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/141/trunk/talk/app/webrtc/jsepsessiondescription.cc
+END
+jsepsessiondescription.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/141/trunk/talk/app/webrtc/jsepsessiondescription.h
+END
+peerconnection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnection.cc
+END
+peerconnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/144/trunk/talk/app/webrtc/peerconnection.h
+END
+portallocatorfactory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/114/trunk/talk/app/webrtc/portallocatorfactory.cc
+END
+portallocatorfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/144/trunk/talk/app/webrtc/portallocatorfactory.h
+END
+mediastreamtrackproxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastreamtrackproxy.h
+END
+audiotrack.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/118/trunk/talk/app/webrtc/audiotrack.cc
+END
+mediastreamsignaling.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/137/trunk/talk/app/webrtc/mediastreamsignaling.cc
+END
+mediastreamhandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastreamhandler.cc
+END
+mediastreamsignaling.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/144/trunk/talk/app/webrtc/mediastreamsignaling.h
+END
+roapmessages.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/126/trunk/talk/app/webrtc/roapmessages.cc
+END
+mediastream_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/118/trunk/talk/app/webrtc/mediastream_unittest.cc
+END

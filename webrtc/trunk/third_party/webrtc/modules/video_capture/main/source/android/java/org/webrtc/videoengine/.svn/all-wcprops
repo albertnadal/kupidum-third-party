@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2285/stable/src/modules/video_capture/main/source/android/java/org/webrtc/videoengine
+END
+CaptureCapabilityAndroid.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2051/stable/src/modules/video_capture/main/source/android/java/org/webrtc/videoengine/CaptureCapabilityAndroid.java
+END
+VideoCaptureDeviceInfoAndroid.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2285/stable/src/modules/video_capture/main/source/android/java/org/webrtc/videoengine/VideoCaptureDeviceInfoAndroid.java
+END
+VideoCaptureAndroid.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/2285/stable/src/modules/video_capture/main/source/android/java/org/webrtc/videoengine/VideoCaptureAndroid.java
+END

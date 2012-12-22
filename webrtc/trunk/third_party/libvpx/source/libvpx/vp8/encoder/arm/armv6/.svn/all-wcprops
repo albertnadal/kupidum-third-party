@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6
+END
+vp8_variance_halfpixvar16x16_h_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_variance_halfpixvar16x16_h_armv6.asm
+END
+vp8_mse16x16_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_mse16x16_armv6.asm
+END
+vp8_sad16x16_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_sad16x16_armv6.asm
+END
+vp8_fast_quantize_b_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_fast_quantize_b_armv6.asm
+END
+vp8_variance16x16_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_variance16x16_armv6.asm
+END
+vp8_short_fdct4x4_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_short_fdct4x4_armv6.asm
+END
+vp8_variance_halfpixvar16x16_hv_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_variance_halfpixvar16x16_hv_armv6.asm
+END
+vp8_variance8x8_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_variance8x8_armv6.asm
+END
+walsh_v6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/walsh_v6.asm
+END
+vp8_subtract_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_subtract_armv6.asm
+END
+vp8_variance_halfpixvar16x16_v_armv6.asm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/encoder/arm/armv6/vp8_variance_halfpixvar16x16_v_armv6.asm
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/122984/trunk/deps/third_party/libvpx/source/config/linux/arm-neon
+END
+vpx_config.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/117274/trunk/deps/third_party/libvpx/source/config/linux/arm-neon/vpx_config.asm
+END
+vpx_config.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/linux/arm-neon/vpx_config.c
+END
+asm_com_offsets.asm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/122984/trunk/deps/third_party/libvpx/source/config/linux/arm-neon/asm_com_offsets.asm
+END
+vpx_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/linux/arm-neon/vpx_config.h
+END
+vpx_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/122947/trunk/deps/third_party/libvpx/source/config/linux/arm-neon/vpx_version.h
+END
+asm_enc_offsets.asm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/122947/trunk/deps/third_party/libvpx/source/config/linux/arm-neon/asm_enc_offsets.asm
+END

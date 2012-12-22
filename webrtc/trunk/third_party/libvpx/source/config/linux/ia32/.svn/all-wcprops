@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/config/linux/ia32
+END
+vpx_config.asm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/117274/trunk/deps/third_party/libvpx/source/config/linux/ia32/vpx_config.asm
+END
+vpx_config.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/linux/ia32/vpx_config.c
+END
+vpx_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/117274/trunk/deps/third_party/libvpx/source/config/linux/ia32/vpx_config.h
+END
+vpx_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/config/linux/ia32/vpx_version.h
+END
+asm_enc_offsets.asm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/config/linux/ia32/asm_enc_offsets.asm
+END

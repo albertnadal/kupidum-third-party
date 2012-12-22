@@ -1,0 +1,21 @@
+K 10
+svn:ignore
+V 147
+Makefile
+dart
+dartium_tools
+data
+delegate_execute
+googleurl
+metro_driver
+native_client
+out
+pdf
+rlz
+sconsbuild
+seccompsandbox
+support
+v8
+xcodebuild
+
+END

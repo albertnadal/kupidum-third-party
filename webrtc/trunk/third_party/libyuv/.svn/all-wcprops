@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/247/trunk
+END
+README.chromium
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/247/trunk/README.chromium
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/54/trunk/LICENSE
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/53/trunk/AUTHORS
+END
+libyuv_test.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/186/trunk/libyuv_test.gyp
+END
+libyuv.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/188/trunk/libyuv.gyp
+END
+codereview.settings
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/104/trunk/codereview.settings
+END
+DEPS
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/186/trunk/DEPS
+END
+PATENTS
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/41/trunk/PATENTS
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/fix/test
+END
+Isac_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/fix/test/Isac_test.cc
+END
+kenny.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/fix/test/kenny.c
+END
+ISACHist.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/fix/test/ISACHist.cc
+END
+test_iSACfixfloat.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/fix/test/test_iSACfixfloat.c
+END

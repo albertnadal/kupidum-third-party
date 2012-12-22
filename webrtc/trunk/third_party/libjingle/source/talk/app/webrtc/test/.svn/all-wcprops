@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/125/trunk/talk/app/webrtc/test
+END
+fileframesource.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/fileframesource.cc
+END
+i420framesource.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/i420framesource.h
+END
+fileframesource.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/fileframesource.h
+END
+fakeaudiocapturemodule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/125/trunk/talk/app/webrtc/test/fakeaudiocapturemodule.cc
+END
+staticframesource.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/staticframesource.cc
+END
+fakeaudiocapturemodule.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/125/trunk/talk/app/webrtc/test/fakeaudiocapturemodule.h
+END
+staticframesource.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/staticframesource.h
+END
+fakevideocapturemodule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/fakevideocapturemodule.cc
+END
+fakevideocapturemodule.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/123/trunk/talk/app/webrtc/test/fakevideocapturemodule.h
+END
+i420framesource.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/120/trunk/talk/app/webrtc/test/i420framesource.cc
+END

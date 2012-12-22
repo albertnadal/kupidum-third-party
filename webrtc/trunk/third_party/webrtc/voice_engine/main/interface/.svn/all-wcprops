@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2291/stable/src/voice_engine/main/interface
+END
+voe_external_media.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_external_media.h
+END
+voe_network.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_network.h
+END
+voe_dtmf.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_dtmf.h
+END
+voe_neteq_stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_neteq_stats.h
+END
+voe_encryption.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_encryption.h
+END
+voe_hardware.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_hardware.h
+END
+voe_audio_processing.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2291/stable/src/voice_engine/main/interface/voe_audio_processing.h
+END
+voe_rtp_rtcp.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1973/stable/src/voice_engine/main/interface/voe_rtp_rtcp.h
+END
+voe_video_sync.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_video_sync.h
+END
+voe_call_report.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1747/stable/src/voice_engine/main/interface/voe_call_report.h
+END
+voe_volume_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_volume_control.h
+END
+voe_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2285/stable/src/voice_engine/main/interface/voe_base.h
+END
+voe_errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_errors.h
+END
+voe_codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2285/stable/src/voice_engine/main/interface/voe_codec.h
+END
+voe_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1659/stable/src/voice_engine/main/interface/voe_file.h
+END

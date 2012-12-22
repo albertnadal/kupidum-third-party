@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/bin
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/bin/Makefile.inc
+END
+bin-objfmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/bin/bin-objfmt.c
+END

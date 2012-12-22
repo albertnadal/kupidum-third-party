@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports
+END
+asm_offsets.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/asm_offsets.h
+END
+arm_cpudetect.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/arm_cpudetect.c
+END
+emms.asm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/106911/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/emms.asm
+END
+vpx_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/vpx_timer.h
+END
+mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/mem.h
+END
+arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/arm.h
+END
+mem_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/mem_ops.h
+END
+mem_ops_aligned.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/mem_ops_aligned.h
+END
+vpxtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/vpxtypes.h
+END
+x86_cpuid.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/x86_cpuid.c
+END
+x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/x86.h
+END
+x86_abi_support.asm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/107120/trunk/deps/third_party/libvpx/source/libvpx/vpx_ports/x86_abi_support.asm
+END

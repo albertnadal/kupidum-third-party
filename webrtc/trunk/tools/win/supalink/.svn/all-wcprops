@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/130893/trunk/src/tools/win/supalink
+END
+check_installed.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/123546/trunk/src/tools/win/supalink/check_installed.py
+END
+install_supalink.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/123546/trunk/src/tools/win/supalink/install_supalink.py
+END
+supalink.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/130893/trunk/src/tools/win/supalink/supalink.cpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/103474/trunk/src/tools/win/supalink/README
+END

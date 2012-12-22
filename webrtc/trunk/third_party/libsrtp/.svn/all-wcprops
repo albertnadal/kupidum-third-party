@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/123853/trunk/deps/third_party/libsrtp
+END
+README.chromium
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/115467/trunk/deps/third_party/libsrtp/README.chromium
+END
+libsrtp.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/123847/trunk/deps/third_party/libsrtp/libsrtp.gyp
+END

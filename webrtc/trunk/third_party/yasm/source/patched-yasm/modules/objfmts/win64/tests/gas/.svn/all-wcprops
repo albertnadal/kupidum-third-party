@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/win64/tests/gas
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/win64/tests/gas/Makefile.inc
+END
+win64-gas-sce.asm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/win64/tests/gas/win64-gas-sce.asm
+END
+win64_gas_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/win64/tests/gas/win64_gas_test.sh
+END
+win64-gas-sce.hex
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/modules/objfmts/win64/tests/gas/win64-gas-sce.hex
+END

@@ -1,0 +1,41 @@
+Name: libvpx
+URL: http://www.webmproject.org
+Version: v0.9.7p1
+License File: source/libvpx/LICENSE
+
+Date: Tuesday August 16 2011
+Branch: cayuga
+Commit: 20307c70ae96c45b9b00338989b952fb334e4fc9
+
+Description:
+Contains the sources used to compile libvpx binaries used by Google Chrome and
+Chromium.
+
+The libvpx source is from webmproject.org:
+  git://review.webmproject.org/libvpx
+
+Notes on updating libvpx source code.
+
+Please follow these steps to update libvpx source code:
+1. Remove old source code.
+
+   svn del source/libvpx
+
+2. Commit the change.
+
+3. Download the latest libvpx source code and put it in source/libvpx.
+
+4. Add latest libvpx source code to SVN repo.
+
+   svn add source/libvpx
+
+5. Generate updated .gypi files.
+
+   ./generate_gypi.sh
+
+6. Modify libvpx source code to hide global symbols.
+
+   ./hide_symbols.sh
+
+7. Commit the change.
+

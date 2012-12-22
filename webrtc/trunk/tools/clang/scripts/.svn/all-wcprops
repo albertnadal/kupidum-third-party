@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/138031/trunk/src/tools/clang/scripts
+END
+plugin_flags.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/138031/trunk/src/tools/clang/scripts/plugin_flags.sh
+END
+package.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/137428/trunk/src/tools/clang/scripts/package.sh
+END
+update_iwyu.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/112547/trunk/src/tools/clang/scripts/update_iwyu.sh
+END
+update.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/122839/trunk/src/tools/clang/scripts/update.py
+END
+update.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/135349/trunk/src/tools/clang/scripts/update.sh
+END

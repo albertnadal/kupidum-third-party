@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1878/stable/src/modules/audio_device/main/interface
+END
+audio_device_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1878/stable/src/modules/audio_device/main/interface/audio_device_defines.h
+END
+audio_device.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1878/stable/src/modules/audio_device/main/interface/audio_device.h
+END

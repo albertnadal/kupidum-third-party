@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm
+END
+loopfilter_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/loopfilter_arm.c
+END
+bilinearfilter_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/bilinearfilter_arm.h
+END
+subpixel_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/subpixel_arm.h
+END
+loopfilter_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/loopfilter_arm.h
+END
+reconintra_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/reconintra_arm.c
+END
+filter_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/filter_arm.c
+END
+idct_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/idct_arm.h
+END
+dequantize_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/dequantize_arm.c
+END
+arm_systemdependent.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/arm_systemdependent.c
+END
+bilinearfilter_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/bilinearfilter_arm.c
+END
+recon_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/recon_arm.h
+END
+dequantize_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vp8/common/arm/dequantize_arm.h
+END

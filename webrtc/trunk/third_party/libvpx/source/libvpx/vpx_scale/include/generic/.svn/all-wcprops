@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/include/generic
+END
+vpxscale_depricated.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/include/generic/vpxscale_depricated.h
+END
+vpxscale_arbitrary.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/include/generic/vpxscale_arbitrary.h
+END

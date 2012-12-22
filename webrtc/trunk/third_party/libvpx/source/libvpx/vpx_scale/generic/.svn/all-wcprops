@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic
+END
+scalesystemdependent.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/scalesystemdependent.c
+END
+gen_scalers.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/gen_scalers.c
+END
+vpxscale.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/vpxscale.c
+END
+yv12config.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/yv12config.c
+END
+bicubic_scaler.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/bicubic_scaler.c
+END
+yv12extend.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/yv12extend.c
+END
+yv12extend_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/generic/yv12extend_generic.h
+END

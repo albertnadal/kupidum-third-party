@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/93/trunk/talk/session/phone/testdata
+END
+voice.rtpdump
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/51/trunk/talk/session/phone/testdata/voice.rtpdump
+END
+video.rtpdump
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/51/trunk/talk/session/phone/testdata/video.rtpdump
+END
+h264-svc-99-640x360.rtpdump
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/93/trunk/talk/session/phone/testdata/h264-svc-99-640x360.rtpdump
+END
+captured-320x240-2s-48.frames
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/93/trunk/talk/session/phone/testdata/captured-320x240-2s-48.frames
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2330/trunk/peerconnection
+END
+peerconnection.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2199/trunk/peerconnection/peerconnection.gyp
+END
+DEPS
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2330/trunk/peerconnection/DEPS
+END
+OWNERS
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1739/trunk/peerconnection/OWNERS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1890/trunk/peerconnection/README
+END

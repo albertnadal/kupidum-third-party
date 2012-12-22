@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale
+END
+yv12extend.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/yv12extend.h
+END
+scale_mode.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/scale_mode.h
+END
+vpx_scale.mk
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/vpx_scale.mk
+END
+vpxscale.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/vpxscale.h
+END
+yv12config.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/106910/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/yv12config.h
+END

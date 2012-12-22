@@ -1,0 +1,86 @@
+Tapm_util
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphonesimulator/libapm_util.a
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/apm_util.LinkFileList
+c000000004F61D6820000000000000256
+t1331811970
+s598
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/delay_estimator.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/delay_estimator_wrapper.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/fft4g.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/ring_buffer.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/delay_estimator.c
+c000000004F0EBC060000000000002BE6
+t1326365702
+s11238
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/delay_estimator_wrapper.c
+c000000004F0EBC0600000000000027F1
+t1326365702
+s10225
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/fft4g.c
+c000000004F0EBC060000000000008FD8
+t1326365702
+s36824
+
+N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/ring_buffer.c
+c000000004F0EBC060000000000001C04
+t1326365702
+s7172
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/delay_estimator.c
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/delay_estimator_wrapper.c
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/fft4g.c
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/ring_buffer.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd97715020e12b541^bb483d020e12b541^---0#1#0#--18"Check dependencies36"C929292D-5547-4B9C-88B4-AD4B8A5B2501-
+
+CCompileC ../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/delay_estimator.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/delay_estimator.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/delay_estimator_wrapper.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/delay_estimator_wrapper.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/fft4g.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/fft4g.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../../xcodebuild/modules.build/Debug-iphonesimulator/apm_util.build/Objects-normal/i386/ring_buffer.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_processing/utility/ring_buffer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphonesimulator/libapm_util.a normal i386
+r0
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1878/stable/src/modules/video_render/main/source/linux
+END
+video_x11_render.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1878/stable/src/modules/video_render/main/source/linux/video_x11_render.cc
+END
+video_x11_render.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1659/stable/src/modules/video_render/main/source/linux/video_x11_render.h
+END
+video_render_linux_impl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1878/stable/src/modules/video_render/main/source/linux/video_render_linux_impl.cc
+END
+video_render_linux_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1659/stable/src/modules/video_render/main/source/linux/video_render_linux_impl.h
+END
+video_x11_channel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1878/stable/src/modules/video_render/main/source/linux/video_x11_channel.cc
+END
+video_x11_channel.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1659/stable/src/modules/video_render/main/source/linux/video_x11_channel.h
+END

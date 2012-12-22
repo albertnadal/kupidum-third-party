@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1659/stable/src/modules/audio_processing/test/android/apmtest
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1659/stable/src/modules/audio_processing/test/android/apmtest/default.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1659/stable/src/modules/audio_processing/test/android/apmtest/AndroidManifest.xml
+END

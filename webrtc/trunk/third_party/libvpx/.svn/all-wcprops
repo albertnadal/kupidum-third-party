@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/134182/trunk/deps/third_party/libvpx
+END
+README.chromium
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106911/trunk/deps/third_party/libvpx/README.chromium
+END
+libvpx.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/134182/trunk/deps/third_party/libvpx/libvpx.gyp
+END
+libvpx_srcs_arm_neon.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/libvpx_srcs_arm_neon.gypi
+END
+libvpx_srcs_x86_64.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/libvpx_srcs_x86_64.gypi
+END
+libvpx_srcs_arm.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/libvpx_srcs_arm.gypi
+END
+hide_symbols.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/107120/trunk/deps/third_party/libvpx/hide_symbols.sh
+END
+libvpx.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/76510/trunk/deps/third_party/libvpx/libvpx.h
+END
+libvpx_srcs_x86.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/libvpx_srcs_x86.gypi
+END
+generate_gypi.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/117274/trunk/deps/third_party/libvpx/generate_gypi.sh
+END

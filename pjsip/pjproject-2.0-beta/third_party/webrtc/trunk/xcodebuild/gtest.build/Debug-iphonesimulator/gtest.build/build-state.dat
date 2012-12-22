@@ -1,0 +1,176 @@
+Tgtest
+v5
+r1
+cCheck dependencies
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/Debug-iphonesimulator/libgtest.a
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-death-test.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-filepath.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-port.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-printers.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-test-part.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-typed-test.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest.LinkFileList
+c000000004F61D8BE0000000000000562
+t1331812542
+s1378
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest_mac.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/multiprocess_func_list.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/platform_test_mac.o
+t2
+s0
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-death-test.cc
+c000000004F10A8D5000000000000B54D
+t1326491861
+s46413
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-filepath.cc
+c000000004F0EBC2300000000000037AF
+t1326365731
+s14255
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-port.cc
+c000000004F0EBC2300000000000062E8
+t1326365731
+s25320
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-printers.cc
+c000000004F0EBC230000000000002F0A
+t1326365731
+s12042
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-test-part.cc
+c000000004F0EBC230000000000001065
+t1326365731
+s4197
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-typed-test.cc
+c000000004F0EBC230000000000000EA3
+t1326365731
+s3747
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest.cc
+c000000004F0EBC23000000000002BE6E
+t1326365731
+s179822
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/gtest_mac.mm
+c000000004F0EBC1800000000000007CB
+t1326365720
+s1995
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/multiprocess_func_list.cc
+c000000004F0EBC1800000000000004F8
+t1326365720
+s1272
+
+N/Users/ALTEN/iphone/webrtc/trunk/testing/platform_test_mac.mm
+c000000004F0EBC180000000000000173
+t1326365720
+s371
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-death-test.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-filepath.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-port.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-printers.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-test-part.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-typed-test.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/gtest_mac.mm
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/multiprocess_func_list.cc
+r0
+
+CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/testing/platform_test_mac.mm
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescc63053e1012b541^3195163e1012b541^---0#1#0#--18"Check dependencies36"4DA372BC-48B7-4CA2-B253-65D01835D1A8-
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-death-test.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-death-test.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-filepath.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-filepath.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-port.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-port.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-printers.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-printers.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-test-part.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-test-part.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest-typed-test.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest-typed-test.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest/src/gtest.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/gtest_mac.o /Users/ALTEN/iphone/webrtc/trunk/testing/gtest_mac.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/multiprocess_func_list.o /Users/ALTEN/iphone/webrtc/trunk/testing/multiprocess_func_list.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ../xcodebuild/gtest.build/Debug-iphonesimulator/gtest.build/Objects-normal/i386/platform_test_mac.o /Users/ALTEN/iphone/webrtc/trunk/testing/platform_test_mac.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/ALTEN/iphone/webrtc/trunk/testing/../xcodebuild/Debug-iphonesimulator/libgtest.a normal i386
+r0
+

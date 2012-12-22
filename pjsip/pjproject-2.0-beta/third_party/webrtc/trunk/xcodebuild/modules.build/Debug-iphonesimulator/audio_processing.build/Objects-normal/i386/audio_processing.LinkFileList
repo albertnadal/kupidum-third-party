@@ -1,0 +1,11 @@
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/audio_buffer.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/audio_processing_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/echo_cancellation_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/echo_control_mobile_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/gain_control_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/high_pass_filter_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/level_estimator_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/noise_suppression_impl.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/splitting_filter.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/processing_component.o
+/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphonesimulator/audio_processing.build/Objects-normal/i386/voice_detection_impl.o

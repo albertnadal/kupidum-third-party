@@ -1,0 +1,887 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/144/trunk/talk/session/phone
+END
+fakewebrtcvoiceengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/138/trunk/talk/session/phone/fakewebrtcvoiceengine.h
+END
+srtpfilter_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/139/trunk/talk/session/phone/srtpfilter_unittest.cc
+END
+srtpfilter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/139/trunk/talk/session/phone/srtpfilter.cc
+END
+fakertp.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/123/trunk/talk/session/phone/fakertp.h
+END
+v4llookup.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/84/trunk/talk/session/phone/v4llookup.cc
+END
+streamparams.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/talk/session/phone/streamparams.cc
+END
+testutils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/133/trunk/talk/session/phone/testutils.cc
+END
+webrtcvoe.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/89/trunk/talk/session/phone/webrtcvoe.h
+END
+mediarecorder_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/123/trunk/talk/session/phone/mediarecorder_unittest.cc
+END
+fakevideocapturer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/130/trunk/talk/session/phone/fakevideocapturer.h
+END
+mediamessages_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/110/trunk/talk/session/phone/mediamessages_unittest.cc
+END
+rtcpmuxfilter_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/139/trunk/talk/session/phone/rtcpmuxfilter_unittest.cc
+END
+videoprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/141/trunk/talk/session/phone/videoprocessor.h
+END
+mediachannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/141/trunk/talk/session/phone/mediachannel.h
+END
+linuxdevicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/96/trunk/talk/session/phone/linuxdevicemanager.h
+END
+webrtcmediaengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/130/trunk/talk/session/phone/webrtcmediaengine.h
+END
+audioframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/96/trunk/talk/session/phone/audioframe.h
+END
+filevideocapturer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/116/trunk/talk/session/phone/filevideocapturer.h
+END
+videocommon.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/96/trunk/talk/session/phone/videocommon.cc
+END
+fakevideorenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/127/trunk/talk/session/phone/fakevideorenderer.h
+END
+rtputils.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/116/trunk/talk/session/phone/rtputils.h
+END
+libudevsymboltable.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/51/trunk/talk/session/phone/libudevsymboltable.h
+END
+fakewebrtcvideocapturemodule.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/123/trunk/talk/session/phone/fakewebrtcvideocapturemodule.h
+END
+channelmanager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/130/trunk/talk/session/phone/channelmanager.cc
+END
+channelmanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/130/trunk/talk/session/phone/channelmanager.h
+END
+mediarecorder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/123/trunk/talk/session/phone/mediarecorder.cc
+END
+dummydevicemanager_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/89/trunk/talk/session/phone/dummydevicemanager_unittest.cc
+END
+dummydevicemanager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/96/trunk/talk/session/phone/dummydevicemanager.cc
+END
+filemediaengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/141/trunk/talk/session/phone/filemediaengine.h
+END
+channel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/141/trunk/talk/session/phone/channel.cc
+END
+rtcpmuxfilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/139/trunk/talk/session/phone/rtcpmuxfilter.h
+END
+filevideocapturer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/127/trunk/talk/session/phone/filevideocapturer.cc
+END
+fakewebrtcvcmfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/123/trunk/talk/session/phone/fakewebrtcvcmfactory.h
+END
+videocommon_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/96/trunk/talk/session/phone/videocommon_unittest.cc
+END
+gdivideorenderer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/78/trunk/talk/session/phone/gdivideorenderer.cc
+END
+webrtcvideoframe.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/118/trunk/talk/session/phone/webrtcvideoframe.cc
+END
+mediamonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/123/trunk/talk/session/phone/mediamonitor.h
+END
+devicemanager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/130/trunk/talk/session/phone/devicemanager.cc
+END
+webrtcvoiceengine_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/138/trunk/talk/session/phone/webrtcvoiceengine_unittest.cc
+END
+webrtcvideoengine_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/141/trunk/talk/session/phone/webrtcvideoengine_unittest.cc
+END
+soundclip.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/30/trunk/talk/session/phone/soundclip.h
+END
+gtkvideorenderer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/78/trunk/talk/session/phone/gtkvideorenderer.cc
+END
+filemediaengine_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/108/trunk/talk/session/phone/filemediaengine_unittest.cc
+END
+gtkvideorenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/78/trunk/talk/session/phone/gtkvideorenderer.h
+END
+videoadapter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/141/trunk/talk/session/phone/videoadapter.cc
+END
+fakemediaprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/141/trunk/talk/session/phone/fakemediaprocessor.h
+END
+audiomonitor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/30/trunk/talk/session/phone/audiomonitor.cc
+END
+ssrcmuxfilter_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/107/trunk/talk/session/phone/ssrcmuxfilter_unittest.cc
+END
+videocapturer_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/141/trunk/talk/session/phone/videocapturer_unittest.cc
+END
+constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/125/trunk/talk/session/phone/constants.h
+END
+webrtcvideocapturer_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/123/trunk/talk/session/phone/webrtcvideocapturer_unittest.cc
+END
+mediasessionclient.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/133/trunk/talk/session/phone/mediasessionclient.cc
+END
+cryptoparams.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/56/trunk/talk/session/phone/cryptoparams.h
+END
+fakewebrtccommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/110/trunk/talk/session/phone/fakewebrtccommon.h
+END
+macdevicemanagermm.mm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/96/trunk/talk/session/phone/macdevicemanagermm.mm
+END
+rtpdump_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/133/trunk/talk/session/phone/rtpdump_unittest.cc
+END
+devicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/talk/session/phone/devicemanager.h
+END
+fakemediaengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/141/trunk/talk/session/phone/fakemediaengine.h
+END
+dataengine.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/130/trunk/talk/session/phone/dataengine.cc
+END
+testutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/108/trunk/talk/session/phone/testutils.h
+END
+linphonemediaengine.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/78/trunk/talk/session/phone/linphonemediaengine.cc
+END
+filemediaengine.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/108/trunk/talk/session/phone/filemediaengine.cc
+END
+channel_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/141/trunk/talk/session/phone/channel_unittest.cc
+END
+mediamessages.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/123/trunk/talk/session/phone/mediamessages.h
+END
+constants.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/125/trunk/talk/session/phone/constants.cc
+END
+videocapturer.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/141/trunk/talk/session/phone/videocapturer.h
+END
+win32devicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/96/trunk/talk/session/phone/win32devicemanager.h
+END
+webrtcpassthroughrender.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/116/trunk/talk/session/phone/webrtcpassthroughrender.h
+END
+gdivideorenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/78/trunk/talk/session/phone/gdivideorenderer.h
+END
+mediasessionclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/133/trunk/talk/session/phone/mediasessionclient.h
+END
+rtputils_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/116/trunk/talk/session/phone/rtputils_unittest.cc
+END
+rtputils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/116/trunk/talk/session/phone/rtputils.cc
+END
+webrtcvideoframe_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/118/trunk/talk/session/phone/webrtcvideoframe_unittest.cc
+END
+dataengine_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/130/trunk/talk/session/phone/dataengine_unittest.cc
+END
+videorenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/110/trunk/talk/session/phone/videorenderer.h
+END
+streamparams.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/130/trunk/talk/session/phone/streamparams.h
+END
+v4llookup.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/84/trunk/talk/session/phone/v4llookup.h
+END
+linphonemediaengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/78/trunk/talk/session/phone/linphonemediaengine.h
+END
+cpuid.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/141/trunk/talk/session/phone/cpuid.h
+END
+mediaengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/141/trunk/talk/session/phone/mediaengine.h
+END
+channel.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/144/trunk/talk/session/phone/channel.h
+END
+audiomonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/141/trunk/talk/session/phone/audiomonitor.h
+END
+videocapturer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/141/trunk/talk/session/phone/videocapturer.cc
+END
+codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/123/trunk/talk/session/phone/codec.h
+END
+videocommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/116/trunk/talk/session/phone/videocommon.h
+END
+typingmonitor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/141/trunk/talk/session/phone/typingmonitor.cc
+END
+mediasession_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/141/trunk/talk/session/phone/mediasession_unittest.cc
+END
+webrtcvideoframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/110/trunk/talk/session/phone/webrtcvideoframe.h
+END
+voicechannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/30/trunk/talk/session/phone/voicechannel.h
+END
+srtpfilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/139/trunk/talk/session/phone/srtpfilter.h
+END
+webrtccommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/84/trunk/talk/session/phone/webrtccommon.h
+END
+webrtcvideoengine.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/141/trunk/talk/session/phone/webrtcvideoengine.cc
+END
+cpuid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/141/trunk/talk/session/phone/cpuid.cc
+END
+webrtcvideoengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/141/trunk/talk/session/phone/webrtcvideoengine.h
+END
+currentspeakermonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/110/trunk/talk/session/phone/currentspeakermonitor.h
+END
+codec_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/123/trunk/talk/session/phone/codec_unittest.cc
+END
+win32devicemanager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/96/trunk/talk/session/phone/win32devicemanager.cc
+END
+videoframe.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/116/trunk/talk/session/phone/videoframe.cc
+END
+carbonvideorenderer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/78/trunk/talk/session/phone/carbonvideorenderer.cc
+END
+webrtcvideocapturer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/123/trunk/talk/session/phone/webrtcvideocapturer.cc
+END
+typingmonitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/141/trunk/talk/session/phone/typingmonitor.h
+END
+webrtcvideocapturer.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/123/trunk/talk/session/phone/webrtcvideocapturer.h
+END
+mediamonitor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/78/trunk/talk/session/phone/mediamonitor.cc
+END
+libudevsymboltable.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/51/trunk/talk/session/phone/libudevsymboltable.cc
+END
+devicemanager_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/116/trunk/talk/session/phone/devicemanager_unittest.cc
+END
+rtpdump.cc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/133/trunk/talk/session/phone/rtpdump.cc
+END
+fakewebrtcvideoengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/137/trunk/talk/session/phone/fakewebrtcvideoengine.h
+END
+webrtcvie.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/106/trunk/talk/session/phone/webrtcvie.h
+END
+rtpdump.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/133/trunk/talk/session/phone/rtpdump.h
+END
+channelmanager_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/133/trunk/talk/session/phone/channelmanager_unittest.cc
+END
+webrtcvoiceengine.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/141/trunk/talk/session/phone/webrtcvoiceengine.cc
+END
+fakenetworkinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/123/trunk/talk/session/phone/fakenetworkinterface.h
+END
+currentspeakermonitor_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/89/trunk/talk/session/phone/currentspeakermonitor_unittest.cc
+END
+mediaengine.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/95/trunk/talk/session/phone/mediaengine.cc
+END
+rtcpmuxfilter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/139/trunk/talk/session/phone/rtcpmuxfilter.cc
+END
+dummydevicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/85/trunk/talk/session/phone/dummydevicemanager.h
+END
+videoadapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/141/trunk/talk/session/phone/videoadapter.h
+END
+ssrcmuxfilter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/108/trunk/talk/session/phone/ssrcmuxfilter.cc
+END
+macdevicemanager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/96/trunk/talk/session/phone/macdevicemanager.cc
+END
+call.cc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/130/trunk/talk/session/phone/call.cc
+END
+fakewebrtcdeviceinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/123/trunk/talk/session/phone/fakewebrtcdeviceinfo.h
+END
+codec.cc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/123/trunk/talk/session/phone/codec.cc
+END
+call.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/130/trunk/talk/session/phone/call.h
+END
+macdevicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/96/trunk/talk/session/phone/macdevicemanager.h
+END
+webrtcpassthroughrender_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/116/trunk/talk/session/phone/webrtcpassthroughrender_unittest.cc
+END
+webrtcpassthroughrender.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/116/trunk/talk/session/phone/webrtcpassthroughrender.cc
+END
+mediasessionclient_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/133/trunk/talk/session/phone/mediasessionclient_unittest.cc
+END
+carbonvideorenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/78/trunk/talk/session/phone/carbonvideorenderer.h
+END
+videorendererfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/73/trunk/talk/session/phone/videorendererfactory.h
+END
+nullvideorenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/101/trunk/talk/session/phone/nullvideorenderer.h
+END
+soundclip.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/30/trunk/talk/session/phone/soundclip.cc
+END
+dataengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/123/trunk/talk/session/phone/dataengine.h
+END
+webrtcvoiceengine.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/141/trunk/talk/session/phone/webrtcvoiceengine.h
+END
+currentspeakermonitor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/110/trunk/talk/session/phone/currentspeakermonitor.cc
+END
+mediasink.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/76/trunk/talk/session/phone/mediasink.h
+END
+mediarecorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/123/trunk/talk/session/phone/mediarecorder.h
+END
+mediamessages.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/123/trunk/talk/session/phone/mediamessages.cc
+END
+voiceprocessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/118/trunk/talk/session/phone/voiceprocessor.h
+END
+screencastid.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/107/trunk/talk/session/phone/screencastid.h
+END
+linuxdevicemanager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/100/trunk/talk/session/phone/linuxdevicemanager.cc
+END
+filevideocapturer_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/127/trunk/talk/session/phone/filevideocapturer_unittest.cc
+END
+ssrcmuxfilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/107/trunk/talk/session/phone/ssrcmuxfilter.h
+END
+fakedevicemanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/130/trunk/talk/session/phone/fakedevicemanager.h
+END
+videoframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/118/trunk/talk/session/phone/videoframe.h
+END
+mediasession.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/141/trunk/talk/session/phone/mediasession.cc
+END
+mediasession.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/137/trunk/talk/session/phone/mediasession.h
+END
+mediacommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/81/trunk/talk/session/phone/mediacommon.h
+END

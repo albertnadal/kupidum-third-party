@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2102/stable/src/modules/bitrate_controller/test
+END
+test_bitrate_controller.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2102/stable/src/modules/bitrate_controller/test/test_bitrate_controller.cc
+END
+test_bitrate_controller.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2102/stable/src/modules/bitrate_controller/test/test_bitrate_controller.gypi
+END

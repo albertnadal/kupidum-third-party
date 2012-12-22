@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2285/stable/src/modules/audio_processing/aecm
+END
+aecm_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1659/stable/src/modules/audio_processing/aecm/aecm_core.h
+END
+echo_control_mobile.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2285/stable/src/modules/audio_processing/aecm/echo_control_mobile.c
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1659/stable/src/modules/audio_processing/aecm/Android.mk
+END
+aecm.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2285/stable/src/modules/audio_processing/aecm/aecm.gypi
+END
+aecm_core_neon.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2285/stable/src/modules/audio_processing/aecm/aecm_core_neon.c
+END
+aecm_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2102/stable/src/modules/audio_processing/aecm/aecm_core.c
+END

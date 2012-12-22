@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2051/stable/src/modules/video_coding/codecs/i420/main/source
+END
+i420.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2051/stable/src/modules/video_coding/codecs/i420/main/source/i420.cc
+END
+i420.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/i420/main/source/i420.gypi
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1659/stable/src/modules/video_coding/codecs/i420/main/source/Android.mk
+END

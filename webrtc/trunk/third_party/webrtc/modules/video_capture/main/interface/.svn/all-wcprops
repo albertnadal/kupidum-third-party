@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1973/stable/src/modules/video_capture/main/interface
+END
+video_capture.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1973/stable/src/modules/video_capture/main/interface/video_capture.h
+END
+video_capture_factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1878/stable/src/modules/video_capture/main/interface/video_capture_factory.h
+END
+video_capture_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1973/stable/src/modules/video_capture/main/interface/video_capture_defines.h
+END

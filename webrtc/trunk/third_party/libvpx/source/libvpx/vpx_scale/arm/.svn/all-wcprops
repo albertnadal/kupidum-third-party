@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/arm
+END
+scalesystemdependent.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/arm/scalesystemdependent.c
+END
+yv12extend_arm.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/121961/trunk/deps/third_party/libvpx/source/libvpx/vpx_scale/arm/yv12extend_arm.h
+END

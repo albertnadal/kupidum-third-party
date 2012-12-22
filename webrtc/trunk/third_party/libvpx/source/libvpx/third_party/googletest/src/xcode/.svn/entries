@@ -1,0 +1,43 @@
+10
+
+dir
+134182
+http://src.chromium.org/svn/trunk/deps/third_party/libvpx/source/libvpx/third_party/googletest/src/xcode
+http://src.chromium.org/svn
+
+
+
+2012-02-22T07:41:58.742422Z
+122996
+hclam@chromium.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4ff67af0-8c30-449e-8e8b-ad334ec8d88c
+
+gtest.xcodeproj
+dir
+
+Samples
+dir
+
+Config
+dir
+
+Scripts
+dir
+
+Resources
+dir
+

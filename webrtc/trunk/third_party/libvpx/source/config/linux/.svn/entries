@@ -1,0 +1,40 @@
+10
+
+dir
+134182
+http://src.chromium.org/svn/trunk/deps/third_party/libvpx/source/config/linux
+http://src.chromium.org/svn
+
+
+
+2012-02-22T06:10:37.449675Z
+122984
+hclam@chromium.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4ff67af0-8c30-449e-8e8b-ad334ec8d88c
+
+arm
+dir
+
+x64
+dir
+
+arm-neon
+dir
+
+ia32
+dir
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI/main.m
+END
+SimpleCocoaGUIAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI/SimpleCocoaGUIAppDelegate.h
+END
+SimpleCocoaGUI-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI/SimpleCocoaGUI-Info.plist
+END
+SimpleCocoaGUIAppDelegate.mm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI/SimpleCocoaGUIAppDelegate.mm
+END
+GUI_Defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI/GUI_Defines.h
+END
+SimpleCocoaGUI_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1659/stable/src/video_engine/main/test/SimpleCocoaGUI/SimpleCocoaGUI_Prefix.pch
+END

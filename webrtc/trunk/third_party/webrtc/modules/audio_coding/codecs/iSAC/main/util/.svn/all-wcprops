@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/main/util
+END
+utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/main/util/utility.c
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1659/stable/src/modules/audio_coding/codecs/iSAC/main/util/utility.h
+END

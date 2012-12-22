@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/122143/trunk/deps/third_party/libvpx/source/config/mac/ia32
+END
+vpx_config.asm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/mac/ia32/vpx_config.asm
+END
+vpx_config.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/mac/ia32/vpx_config.c
+END
+vpx_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/mac/ia32/vpx_config.h
+END
+vpx_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/104890/trunk/deps/third_party/libvpx/source/config/mac/ia32/vpx_version.h
+END
+asm_enc_offsets.asm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/122143/trunk/deps/third_party/libvpx/source/config/mac/ia32/asm_enc_offsets.asm
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/dummy
+END
+audio_device_dummy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/dummy/audio_device_dummy.cc
+END
+audio_device_dummy.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1878/stable/src/modules/audio_device/main/source/dummy/audio_device_dummy.h
+END
+audio_device_utility_dummy.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/dummy/audio_device_utility_dummy.cc
+END
+audio_device_utility_dummy.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1659/stable/src/modules/audio_device/main/source/dummy/audio_device_utility_dummy.h
+END

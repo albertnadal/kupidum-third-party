@@ -1,0 +1,129 @@
+10
+
+dir
+145
+http://libjingle.googlecode.com/svn/trunk/talk
+http://libjingle.googlecode.com/svn
+
+
+
+2012-05-18T21:55:01.797557Z
+145
+mallinath@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dd674b97-3498-5ee5-1854-bdd07cd0ff33
+
+build
+dir
+
+app
+dir
+
+p2p
+dir
+
+session
+dir
+
+libjingle.scons
+file
+
+
+
+
+2012-07-24T13:36:44.000000Z
+84276808cd6cbcd7b5aa65f9f5bb81ca
+2012-05-16T21:20:37.368345Z
+141
+ronghuawu@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27141
+
+xmpp
+dir
+
+sound
+dir
+
+main.scons
+file
+
+
+
+
+2012-07-24T13:36:44.000000Z
+5eb20ec478d1f14581fd44c78871e828
+2012-05-02T21:50:16.141360Z
+137
+pthatcher@pthatcher
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22675
+
+third_party
+dir
+
+site_scons
+dir
+
+base
+dir
+
+xmllite
+dir
+
+examples
+dir
+

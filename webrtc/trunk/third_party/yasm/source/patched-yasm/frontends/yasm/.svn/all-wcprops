@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/frontends/yasm
+END
+yasm-options.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/frontends/yasm/yasm-options.c
+END
+Makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/frontends/yasm/Makefile.inc
+END
+yasm-options.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/frontends/yasm/yasm-options.h
+END
+yasm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/29921/trunk/deps/third_party/yasm/patched-yasm/frontends/yasm/yasm.xml
+END
+yasm.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/71296/trunk/deps/third_party/yasm/patched-yasm/frontends/yasm/yasm.c
+END

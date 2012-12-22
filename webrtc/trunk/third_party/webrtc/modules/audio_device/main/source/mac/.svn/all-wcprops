@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/mac
+END
+audio_mixer_manager_mac.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/mac/audio_mixer_manager_mac.cc
+END
+audio_device_mac.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/mac/audio_device_mac.cc
+END
+audio_mixer_manager_mac.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1659/stable/src/modules/audio_device/main/source/mac/audio_mixer_manager_mac.h
+END
+audio_device_mac.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1878/stable/src/modules/audio_device/main/source/mac/audio_device_mac.h
+END
+audio_device_utility_mac.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2051/stable/src/modules/audio_device/main/source/mac/audio_device_utility_mac.cc
+END
+audio_device_utility_mac.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1659/stable/src/modules/audio_device/main/source/mac/audio_device_utility_mac.h
+END

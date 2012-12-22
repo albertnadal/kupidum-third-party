@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1683/stable/src/modules/video_coding/main/interface/mock
+END
+mock_vcm_callbacks.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1683/stable/src/modules/video_coding/main/interface/mock/mock_vcm_callbacks.h
+END

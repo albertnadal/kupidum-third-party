@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2285/stable/src/build
+END
+common.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2285/stable/src/build/common.gypi
+END
+merge_libs.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1659/stable/src/build/merge_libs.py
+END
+arm_neon.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2285/stable/src/build/arm_neon.gypi
+END
+merge_libs.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2285/stable/src/build/merge_libs.gyp
+END
+protoc.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1659/stable/src/build/protoc.gypi
+END
+no_op.cc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1659/stable/src/build/no_op.cc
+END
