@@ -2,7 +2,7 @@
 #define YARN_HAS_VIDEO 1
 
 #if YARN_HAS_VIDEO
-#define PJMEDIA_HAS_VIDEO 1 //Si es == 1 es penja al fer el call_make_call
+#define PJMEDIA_HAS_VIDEO 1
 #define PJMEDIA_HAS_FFMPEG 1
 #define PJMEDIA_VIDEO_DEV_HAS_SDL 0
 //#define PJMEDIA_AUDIO_DEV_HAS_LEGACY_DEVICE 1
