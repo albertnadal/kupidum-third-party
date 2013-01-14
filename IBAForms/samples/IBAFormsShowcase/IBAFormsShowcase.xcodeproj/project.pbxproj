@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750565AC13A88B2F00B81321 /* libIBAForms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 750565AB13A88B2F00B81321 /* libIBAForms.a */; };
+		756A41F613A884E30093279E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756A41F513A884E30093279E /* UIKit.framework */; };
+		756A41F813A884E30093279E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756A41F713A884E30093279E /* Foundation.framework */; };
+		756A41FA13A884E30093279E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756A41F913A884E30093279E /* CoreGraphics.framework */; };
+		756A420013A884E30093279E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 756A41FE13A884E30093279E /* InfoPlist.strings */; };
+		756A420313A884E30093279E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A420213A884E30093279E /* main.m */; };
+		756A423E13A8863A0093279E /* SampleFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A422913A8863A0093279E /* SampleFormController.m */; };
+		756A423F13A8863A0093279E /* ShowcaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A422B13A8863A0093279E /* ShowcaseController.m */; };
+		756A424013A8863A0093279E /* SampleFormDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A422E13A8863A0093279E /* SampleFormDataSource.m */; };
+		756A424113A8863A0093279E /* ShowcaseFormDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A423013A8863A0093279E /* ShowcaseFormDataSource.m */; };
+		756A424213A8863A0093279E /* IBAFormsShowcaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A423213A8863A0093279E /* IBAFormsShowcaseAppDelegate.m */; };
+		756A424313A8863A0093279E /* ShowcaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A423513A8863A0093279E /* ShowcaseModel.m */; };
+		756A424413A8863A0093279E /* ShowcaseButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A423813A8863A0093279E /* ShowcaseButtonStyle.m */; };
+		756A424513A8863A0093279E /* ShowcaseFieldStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A423A13A8863A0093279E /* ShowcaseFieldStyle.m */; };
+		756A424613A8863A0093279E /* StringToNumberTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A423D13A8863A0093279E /* StringToNumberTransformer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7521731813A8891300C1EFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7521731413A8891300C1EFE4 /* IBAForms.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = IBAForms;
+		};
+		7521731B13A8891D00C1EFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7521731413A8891300C1EFE4 /* IBAForms.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = IBAForms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750565AB13A88B2F00B81321 /* libIBAForms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIBAForms.a; sourceTree = SOURCE_ROOT; };
+		7521731413A8891300C1EFE4 /* IBAForms.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IBAForms.xcodeproj; path = ../../library/IBAForms.xcodeproj; sourceTree = "<group>"; };
+		756A41F113A884E30093279E /* IBAFormsShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBAFormsShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		756A41F513A884E30093279E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		756A41F713A884E30093279E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		756A41F913A884E30093279E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		756A41FD13A884E30093279E /* IBAFormsShowcase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBAFormsShowcase-Info.plist"; sourceTree = "<group>"; };
+		756A41FF13A884E30093279E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		756A420113A884E30093279E /* IBAFormsShowcase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBAFormsShowcase-Prefix.pch"; sourceTree = "<group>"; };
+		756A420213A884E30093279E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		756A422813A8863A0093279E /* SampleFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFormController.h; sourceTree = "<group>"; };
+		756A422913A8863A0093279E /* SampleFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFormController.m; sourceTree = "<group>"; };
+		756A422A13A8863A0093279E /* ShowcaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseController.h; sourceTree = "<group>"; };
+		756A422B13A8863A0093279E /* ShowcaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseController.m; sourceTree = "<group>"; };
+		756A422D13A8863A0093279E /* SampleFormDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFormDataSource.h; sourceTree = "<group>"; };
+		756A422E13A8863A0093279E /* SampleFormDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFormDataSource.m; sourceTree = "<group>"; };
+		756A422F13A8863A0093279E /* ShowcaseFormDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseFormDataSource.h; sourceTree = "<group>"; };
+		756A423013A8863A0093279E /* ShowcaseFormDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseFormDataSource.m; sourceTree = "<group>"; };
+		756A423113A8863A0093279E /* IBAFormsShowcaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAFormsShowcaseAppDelegate.h; sourceTree = "<group>"; };
+		756A423213A8863A0093279E /* IBAFormsShowcaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBAFormsShowcaseAppDelegate.m; sourceTree = "<group>"; };
+		756A423413A8863A0093279E /* ShowcaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseModel.h; sourceTree = "<group>"; };
+		756A423513A8863A0093279E /* ShowcaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseModel.m; sourceTree = "<group>"; };
+		756A423713A8863A0093279E /* ShowcaseButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseButtonStyle.h; sourceTree = "<group>"; };
+		756A423813A8863A0093279E /* ShowcaseButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseButtonStyle.m; sourceTree = "<group>"; };
+		756A423913A8863A0093279E /* ShowcaseFieldStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseFieldStyle.h; sourceTree = "<group>"; };
+		756A423A13A8863A0093279E /* ShowcaseFieldStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseFieldStyle.m; sourceTree = "<group>"; };
+		756A423C13A8863A0093279E /* StringToNumberTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringToNumberTransformer.h; sourceTree = "<group>"; };
+		756A423D13A8863A0093279E /* StringToNumberTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringToNumberTransformer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756A41EE13A884E30093279E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750565AC13A88B2F00B81321 /* libIBAForms.a in Frameworks */,
+				756A41F613A884E30093279E /* UIKit.framework in Frameworks */,
+				756A41F813A884E30093279E /* Foundation.framework in Frameworks */,
+				756A41FA13A884E30093279E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7521731513A8891300C1EFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7521731913A8891300C1EFE4 /* libIBAForms.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756A41E613A884E30093279E = {
+			isa = PBXGroup;
+			children = (
+				756A41FB13A884E30093279E /* IBAFormsShowcase */,
+				756A41F413A884E30093279E /* Frameworks */,
+				756A41F213A884E30093279E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756A41F213A884E30093279E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756A41F113A884E30093279E /* IBAFormsShowcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756A41F413A884E30093279E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750565AB13A88B2F00B81321 /* libIBAForms.a */,
+				7521731413A8891300C1EFE4 /* IBAForms.xcodeproj */,
+				756A41F513A884E30093279E /* UIKit.framework */,
+				756A41F713A884E30093279E /* Foundation.framework */,
+				756A41F913A884E30093279E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756A41FB13A884E30093279E /* IBAFormsShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				756A422613A8863A0093279E /* src */,
+				756A41FC13A884E30093279E /* Supporting Files */,
+			);
+			path = IBAFormsShowcase;
+			sourceTree = "<group>";
+		};
+		756A41FC13A884E30093279E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756A41FD13A884E30093279E /* IBAFormsShowcase-Info.plist */,
+				756A41FE13A884E30093279E /* InfoPlist.strings */,
+				756A420113A884E30093279E /* IBAFormsShowcase-Prefix.pch */,
+				756A420213A884E30093279E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		756A422613A8863A0093279E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				756A422713A8863A0093279E /* controllers */,
+				756A422C13A8863A0093279E /* datasources */,
+				756A423113A8863A0093279E /* IBAFormsShowcaseAppDelegate.h */,
+				756A423213A8863A0093279E /* IBAFormsShowcaseAppDelegate.m */,
+				756A423313A8863A0093279E /* models */,
+				756A423613A8863A0093279E /* styles */,
+				756A423B13A8863A0093279E /* transformers */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		756A422713A8863A0093279E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				756A422813A8863A0093279E /* SampleFormController.h */,
+				756A422913A8863A0093279E /* SampleFormController.m */,
+				756A422A13A8863A0093279E /* ShowcaseController.h */,
+				756A422B13A8863A0093279E /* ShowcaseController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		756A422C13A8863A0093279E /* datasources */ = {
+			isa = PBXGroup;
+			children = (
+				756A422D13A8863A0093279E /* SampleFormDataSource.h */,
+				756A422E13A8863A0093279E /* SampleFormDataSource.m */,
+				756A422F13A8863A0093279E /* ShowcaseFormDataSource.h */,
+				756A423013A8863A0093279E /* ShowcaseFormDataSource.m */,
+			);
+			path = datasources;
+			sourceTree = "<group>";
+		};
+		756A423313A8863A0093279E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				756A423413A8863A0093279E /* ShowcaseModel.h */,
+				756A423513A8863A0093279E /* ShowcaseModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		756A423613A8863A0093279E /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				756A423713A8863A0093279E /* ShowcaseButtonStyle.h */,
+				756A423813A8863A0093279E /* ShowcaseButtonStyle.m */,
+				756A423913A8863A0093279E /* ShowcaseFieldStyle.h */,
+				756A423A13A8863A0093279E /* ShowcaseFieldStyle.m */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		756A423B13A8863A0093279E /* transformers */ = {
+			isa = PBXGroup;
+			children = (
+				756A423C13A8863A0093279E /* StringToNumberTransformer.h */,
+				756A423D13A8863A0093279E /* StringToNumberTransformer.m */,
+			);
+			path = transformers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756A41F013A884E30093279E /* IBAFormsShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756A421713A884E30093279E /* Build configuration list for PBXNativeTarget "IBAFormsShowcase" */;
+			buildPhases = (
+				756A41ED13A884E30093279E /* Sources */,
+				756A41EE13A884E30093279E /* Frameworks */,
+				756A41EF13A884E30093279E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7521731C13A8891D00C1EFE4 /* PBXTargetDependency */,
+			);
+			name = IBAFormsShowcase;
+			productName = IBAFormsShowcase;
+			productReference = 756A41F113A884E30093279E /* IBAFormsShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756A41E813A884E30093279E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Itty Bitty Apps Pty Ltd";
+			};
+			buildConfigurationList = 756A41EB13A884E30093279E /* Build configuration list for PBXProject "IBAFormsShowcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 756A41E613A884E30093279E;
+			productRefGroup = 756A41F213A884E30093279E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7521731513A8891300C1EFE4 /* Products */;
+					ProjectRef = 7521731413A8891300C1EFE4 /* IBAForms.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				756A41F013A884E30093279E /* IBAFormsShowcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7521731913A8891300C1EFE4 /* libIBAForms.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIBAForms.a;
+			remoteRef = 7521731813A8891300C1EFE4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756A41EF13A884E30093279E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756A420013A884E30093279E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756A41ED13A884E30093279E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756A420313A884E30093279E /* main.m in Sources */,
+				756A423E13A8863A0093279E /* SampleFormController.m in Sources */,
+				756A423F13A8863A0093279E /* ShowcaseController.m in Sources */,
+				756A424013A8863A0093279E /* SampleFormDataSource.m in Sources */,
+				756A424113A8863A0093279E /* ShowcaseFormDataSource.m in Sources */,
+				756A424213A8863A0093279E /* IBAFormsShowcaseAppDelegate.m in Sources */,
+				756A424313A8863A0093279E /* ShowcaseModel.m in Sources */,
+				756A424413A8863A0093279E /* ShowcaseButtonStyle.m in Sources */,
+				756A424513A8863A0093279E /* ShowcaseFieldStyle.m in Sources */,
+				756A424613A8863A0093279E /* StringToNumberTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7521731C13A8891D00C1EFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBAForms;
+			targetProxy = 7521731B13A8891D00C1EFE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756A41FE13A884E30093279E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756A41FF13A884E30093279E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756A421513A884E30093279E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756A421613A884E30093279E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		756A421813A884E30093279E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBAFormsShowcase/IBAFormsShowcase-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "IBAFormsShowcase/IBAFormsShowcase-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		756A421913A884E30093279E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBAFormsShowcase/IBAFormsShowcase-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "IBAFormsShowcase/IBAFormsShowcase-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756A41EB13A884E30093279E /* Build configuration list for PBXProject "IBAFormsShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756A421513A884E30093279E /* Debug */,
+				756A421613A884E30093279E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756A421713A884E30093279E /* Build configuration list for PBXNativeTarget "IBAFormsShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756A421813A884E30093279E /* Debug */,
+				756A421913A884E30093279E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756A41E813A884E30093279E /* Project object */;
+}

@@ -1,0 +1,65 @@
+IBAForms
+============
+IBAForms is a framework for building data entry screens on the iPhone. You can quickly make forms using the built-in form field types or create your own custom fields and the user interfaces used to enter data for them. It is an Objective-C library that provides an abstraction layer above common UIKit classes such as UITableView and UITableViewCell.
+
+Features
+============
+IBAForms:
+
+ *  Provides a set of common form field types (text, password, boolean, date, pick list). 
+ *  Manages focus and navigation between form fields.
+ *  Supports binding a form to its backing model via KVC.
+ *  Supports transformation of form values via NSValueTransformer.
+ *  Provides basic styling capabilities at the form, section and field level.
+ *  Provides extension points for creating your own custom form fields.
+
+Screenshots
+============
+
+These screenshots are form the showcase application in the samples directory. They demonstrate the various out-of-the-box features of IBAForms.
+
+![Basic Fields](https://github.com/ittybittydude/IBAForms/raw/master/doc/screenshots/BasicFields.jpg)
+
+![Advanced Fields](https://github.com/ittybittydude/IBAForms/raw/master/doc/screenshots/DateTimePicklists.jpg)
+
+### Showcase
+![Showcase Form](https://github.com/ittybittydude/IBAForms/raw/master/doc/screenshots/showcase.jpg)
+
+When you run the showcase application you'll be presented with a form that allows you to specify how you'd like the sample form to run. You can use this to test out the various ways in which a form may be presented (e.g. grouped or ungrouped tableview, etc).
+
+Discussion Forum
+============
+
+Check out the discussions at the IBAForms Google Group:
+
+http://groups.google.com/group/ibaforms
+
+
+Adding IBAForms to your project
+============
+1. Drag the IBAForms.xcodeproj project in to your XCode 4 project. You might want to drag it in to the *Frameworks* directory to keep it out of the way. Leave the default options 'Create groups for any added folders' and 'Add to targets (Your Project)' selected and press *Finish*. If you get an empty item in the sidebar displaying "IBAForms.xcodeproj", you probably have other Xcode project windows open. Close them and try again.
+2. Select your project from the XCode sidebar and then the target you want to add IBAForms to.
+3. Select the Build Phases tab.
+4. Under the Target Dependencies group, click the plus button, select the IBAForms static library target and press *Add*.
+5. Under the Link Binary Libraries group, click the plus button, select *libIBAForms.a* and press *Add*.
+6. Add IBAForms/library/headers to the target's Header Search path. This will need to be a relative path based on where the IBAForms repository is located relative to your project. For the IBAFormsShowcase example this path is $(SOURCE_ROOT)/../../library/headers.
+7. Add *-all_load* and *-ObjC* to *Other Linker Flags*.
+
+About
+============
+
+IBAForms is brought to you by Itty Bitty Apps. If you like IBAForms, or you've used it in one of your projects, [drop us a line](http://ittybittyapps.com/contact-us/), we'd love to hear about it.
+
+[http://ittybittyapps.com](http://ittybittyapps.com)
+
+
+License
+============
+
+Copyright 2010 Itty Bitty Apps Pty Ltd
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at 
+
+http://www.apache.org/licenses/LICENSE-2.0 
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

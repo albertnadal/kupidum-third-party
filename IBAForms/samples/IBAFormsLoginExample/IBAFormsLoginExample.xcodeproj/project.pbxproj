@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9524EA8114F7370F008B96D2 /* Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 9524EA8014F7370F008B96D2 /* Credentials.m */; };
+		9524EA8D14F73B45008B96D2 /* LoginFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9524EA8C14F73B45008B96D2 /* LoginFormController.m */; };
+		9524EA9014F73B6D008B96D2 /* LoginDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9524EA8F14F73B6D008B96D2 /* LoginDataSource.m */; };
+		9524EA9414F7611A008B96D2 /* IBAFormFieldStyle+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 9524EA9314F7611A008B96D2 /* IBAFormFieldStyle+Login.m */; };
+		954C0AF114F71FED0052F47C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C0AF014F71FED0052F47C /* UIKit.framework */; };
+		954C0AF314F71FED0052F47C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C0AF214F71FED0052F47C /* Foundation.framework */; };
+		954C0AF514F71FED0052F47C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C0AF414F71FED0052F47C /* CoreGraphics.framework */; };
+		954C0AFD14F71FED0052F47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954C0AFC14F71FED0052F47C /* main.m */; };
+		954C0B0114F71FED0052F47C /* IBAFormsLoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954C0B0014F71FED0052F47C /* IBAFormsLoginAppDelegate.m */; };
+		954C0B0914F729720052F47C /* libIBAForms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 954C0B0814F729720052F47C /* libIBAForms.a */; };
+		958DC71F14FC76BD00EE5B95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958DC71D14FC76BD00EE5B95 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		954C0B0E14F7299C0052F47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954C0B0A14F7299C0052F47C /* IBAForms.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = IBAForms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9524EA7F14F7370F008B96D2 /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Credentials.h; path = src/models/Credentials.h; sourceTree = "<group>"; };
+		9524EA8014F7370F008B96D2 /* Credentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Credentials.m; path = src/models/Credentials.m; sourceTree = "<group>"; };
+		9524EA8B14F73B45008B96D2 /* LoginFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginFormController.h; path = src/controllers/LoginFormController.h; sourceTree = "<group>"; };
+		9524EA8C14F73B45008B96D2 /* LoginFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginFormController.m; path = src/controllers/LoginFormController.m; sourceTree = "<group>"; };
+		9524EA8E14F73B6D008B96D2 /* LoginDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginDataSource.h; path = src/datasources/LoginDataSource.h; sourceTree = "<group>"; };
+		9524EA8F14F73B6D008B96D2 /* LoginDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginDataSource.m; path = src/datasources/LoginDataSource.m; sourceTree = "<group>"; usesTabs = 1; };
+		9524EA9214F7611A008B96D2 /* IBAFormFieldStyle+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IBAFormFieldStyle+Login.h"; path = "src/categories/IBAFormFieldStyle+Login.h"; sourceTree = "<group>"; };
+		9524EA9314F7611A008B96D2 /* IBAFormFieldStyle+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "IBAFormFieldStyle+Login.m"; path = "src/categories/IBAFormFieldStyle+Login.m"; sourceTree = "<group>"; };
+		954C0AEC14F71FED0052F47C /* IBAFormsLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBAFormsLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C0AF014F71FED0052F47C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		954C0AF214F71FED0052F47C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		954C0AF414F71FED0052F47C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		954C0AF814F71FED0052F47C /* IBAFormsLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBAFormsLogin-Info.plist"; sourceTree = "<group>"; };
+		954C0AFC14F71FED0052F47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		954C0AFE14F71FED0052F47C /* IBAFormsLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBAFormsLogin-Prefix.pch"; sourceTree = "<group>"; };
+		954C0AFF14F71FED0052F47C /* IBAFormsLoginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IBAFormsLoginAppDelegate.h; path = src/IBAFormsLoginAppDelegate.h; sourceTree = "<group>"; };
+		954C0B0014F71FED0052F47C /* IBAFormsLoginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IBAFormsLoginAppDelegate.m; path = src/IBAFormsLoginAppDelegate.m; sourceTree = "<group>"; };
+		954C0B0814F729720052F47C /* libIBAForms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIBAForms.a; path = "../../library/build/Release-iphoneos/libIBAForms.a"; sourceTree = "<group>"; };
+		954C0B0A14F7299C0052F47C /* IBAForms.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IBAForms.xcodeproj; path = ../../library/IBAForms.xcodeproj; sourceTree = "<group>"; };
+		958DC71E14FC76BD00EE5B95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954C0AE914F71FED0052F47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C0B0914F729720052F47C /* libIBAForms.a in Frameworks */,
+				954C0AF114F71FED0052F47C /* UIKit.framework in Frameworks */,
+				954C0AF314F71FED0052F47C /* Foundation.framework in Frameworks */,
+				954C0AF514F71FED0052F47C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9524EA9114F75DF4008B96D2 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				9524EA9214F7611A008B96D2 /* IBAFormFieldStyle+Login.h */,
+				9524EA9314F7611A008B96D2 /* IBAFormFieldStyle+Login.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		954C0AE114F71FED0052F47C = {
+			isa = PBXGroup;
+			children = (
+				954C0AF614F71FED0052F47C /* IBAFormsLoginExample */,
+				954C0AEF14F71FED0052F47C /* Frameworks */,
+				954C0AED14F71FED0052F47C /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		954C0AED14F71FED0052F47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954C0AEC14F71FED0052F47C /* IBAFormsLoginExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954C0AEF14F71FED0052F47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954C0B1014F729AB0052F47C /* IBAForms */,
+				954C0AF014F71FED0052F47C /* UIKit.framework */,
+				954C0AF214F71FED0052F47C /* Foundation.framework */,
+				954C0AF414F71FED0052F47C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		954C0AF614F71FED0052F47C /* IBAFormsLoginExample */ = {
+			isa = PBXGroup;
+			children = (
+				958DC71C14FC75D000EE5B95 /* src */,
+				954C0AF714F71FED0052F47C /* Supporting Files */,
+			);
+			path = IBAFormsLoginExample;
+			sourceTree = "<group>";
+		};
+		954C0AF714F71FED0052F47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958DC71D14FC76BD00EE5B95 /* InfoPlist.strings */,
+				954C0AF814F71FED0052F47C /* IBAFormsLogin-Info.plist */,
+				954C0AFE14F71FED0052F47C /* IBAFormsLogin-Prefix.pch */,
+				954C0AFC14F71FED0052F47C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		954C0B0B14F7299C0052F47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954C0B0F14F7299C0052F47C /* libIBAForms.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954C0B1014F729AB0052F47C /* IBAForms */ = {
+			isa = PBXGroup;
+			children = (
+				954C0B0814F729720052F47C /* libIBAForms.a */,
+				954C0B0A14F7299C0052F47C /* IBAForms.xcodeproj */,
+			);
+			name = IBAForms;
+			sourceTree = "<group>";
+		};
+		954C0B1114F72A010052F47C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9524EA7F14F7370F008B96D2 /* Credentials.h */,
+				9524EA8014F7370F008B96D2 /* Credentials.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		954C0B1214F72A0C0052F47C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9524EA8B14F73B45008B96D2 /* LoginFormController.h */,
+				9524EA8C14F73B45008B96D2 /* LoginFormController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		954C0B1314F72A170052F47C /* datasources */ = {
+			isa = PBXGroup;
+			children = (
+				9524EA8E14F73B6D008B96D2 /* LoginDataSource.h */,
+				9524EA8F14F73B6D008B96D2 /* LoginDataSource.m */,
+			);
+			name = datasources;
+			sourceTree = "<group>";
+		};
+		954C0B1414F72A2D0052F47C /* bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				954C0AFF14F71FED0052F47C /* IBAFormsLoginAppDelegate.h */,
+				954C0B0014F71FED0052F47C /* IBAFormsLoginAppDelegate.m */,
+			);
+			name = bootstrap;
+			sourceTree = "<group>";
+		};
+		958DC71C14FC75D000EE5B95 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				954C0B1414F72A2D0052F47C /* bootstrap */,
+				9524EA9114F75DF4008B96D2 /* categories */,
+				954C0B1214F72A0C0052F47C /* controllers */,
+				954C0B1314F72A170052F47C /* datasources */,
+				954C0B1114F72A010052F47C /* models */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954C0AEB14F71FED0052F47C /* IBAFormsLoginExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C0B0414F71FED0052F47C /* Build configuration list for PBXNativeTarget "IBAFormsLoginExample" */;
+			buildPhases = (
+				954C0AE814F71FED0052F47C /* Sources */,
+				954C0AE914F71FED0052F47C /* Frameworks */,
+				954C0AEA14F71FED0052F47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBAFormsLoginExample;
+			productName = IBAFormsLoginExample;
+			productReference = 954C0AEC14F71FED0052F47C /* IBAFormsLoginExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954C0AE314F71FED0052F47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Itty Bitty Apps Pty Ltd";
+			};
+			buildConfigurationList = 954C0AE614F71FED0052F47C /* Build configuration list for PBXProject "IBAFormsLoginExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 954C0AE114F71FED0052F47C;
+			productRefGroup = 954C0AED14F71FED0052F47C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 954C0B0B14F7299C0052F47C /* Products */;
+					ProjectRef = 954C0B0A14F7299C0052F47C /* IBAForms.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				954C0AEB14F71FED0052F47C /* IBAFormsLoginExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		954C0B0F14F7299C0052F47C /* libIBAForms.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIBAForms.a;
+			remoteRef = 954C0B0E14F7299C0052F47C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954C0AEA14F71FED0052F47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958DC71F14FC76BD00EE5B95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954C0AE814F71FED0052F47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C0AFD14F71FED0052F47C /* main.m in Sources */,
+				954C0B0114F71FED0052F47C /* IBAFormsLoginAppDelegate.m in Sources */,
+				9524EA8114F7370F008B96D2 /* Credentials.m in Sources */,
+				9524EA8D14F73B45008B96D2 /* LoginFormController.m in Sources */,
+				9524EA9014F73B6D008B96D2 /* LoginDataSource.m in Sources */,
+				9524EA9414F7611A008B96D2 /* IBAFormFieldStyle+Login.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		958DC71D14FC76BD00EE5B95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958DC71E14FC76BD00EE5B95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954C0B0214F71FED0052F47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "IBAFormsLoginExample/IBAFormsLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/headers";
+				INFOPLIST_FILE = "IBAFormsLoginExample/IBAFormsLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954C0B0314F71FED0052F47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "IBAFormsLoginExample/IBAFormsLogin-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../../library/headers";
+				INFOPLIST_FILE = "IBAFormsLoginExample/IBAFormsLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954C0B0514F71FED0052F47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		954C0B0614F71FED0052F47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954C0AE614F71FED0052F47C /* Build configuration list for PBXProject "IBAFormsLoginExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C0B0214F71FED0052F47C /* Debug */,
+				954C0B0314F71FED0052F47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954C0B0414F71FED0052F47C /* Build configuration list for PBXNativeTarget "IBAFormsLoginExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C0B0514F71FED0052F47C /* Debug */,
+				954C0B0614F71FED0052F47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954C0AE314F71FED0052F47C /* Project object */;
+}
