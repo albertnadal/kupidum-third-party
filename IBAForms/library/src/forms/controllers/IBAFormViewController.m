@@ -101,6 +101,7 @@
 	self.tableView.delegate = self;
 
 	tableViewOriginalFrame_ = self.tableView.frame;
+    [self.tableView setBackgroundView:[[UIView alloc] init]]; // Clear background
 }
 
 - (void)viewDidUnload {
@@ -124,7 +125,7 @@
 	}
 	
 	[[[IBAInputManager sharedIBAInputManager] inputNavigationToolbar] setDisplayDoneButton:displayDoneButton];
-	
+
 	[self.tableView reloadData];
 }
 
