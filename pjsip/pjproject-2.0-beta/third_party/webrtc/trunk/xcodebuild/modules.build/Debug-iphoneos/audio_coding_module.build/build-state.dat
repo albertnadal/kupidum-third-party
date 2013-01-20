@@ -1,684 +1,0 @@
-Taudio_coding_module
-v5
-r1
-cCheck dependencies
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a normal armv7
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.LinkFileList
-c000000004F61D5B60000000000000ED9
-t1331811766
-s3801
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc
-c000000004F0EBBFE0000000000002FE2
-t1326365694
-s12258
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc
-c000000004F0EBBFE0000000000003167
-t1326365694
-s12647
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc
-c000000004F0EBBFE0000000000001160
-t1326365694
-s4448
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc
-c000000004F0EBBFE0000000000007353
-t1326365694
-s29523
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc
-c000000004F0EBBFE00000000000004A4
-t1326365694
-s1188
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc
-c000000004F0EBBFE0000000000001365
-t1326365694
-s4965
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc
-c000000004F0EBBFE0000000000002648
-t1326365694
-s9800
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc
-c000000004F0EBBFE0000000000003DF6
-t1326365694
-s15862
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc
-c000000004F0EBBFE0000000000003FE7
-t1326365694
-s16359
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc
-c000000004F0EBBFE0000000000002EC2
-t1326365694
-s11970
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc
-c000000004F0EBBFE0000000000002A1E
-t1326365694
-s10782
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc
-c000000004F0EBBFE000000000000AECB
-t1326365694
-s44747
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc
-c000000004F0EBBFE00000000000021C1
-t1326365694
-s8641
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc
-c000000004F0EBBFE0000000000001FB4
-t1326365694
-s8116
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc
-c000000004F0EBBFE0000000000006C68
-t1326365694
-s27752
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc
-c000000004F0EBBFE00000000000092F7
-t1326365694
-s37623
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc
-c000000004F0EBBFE0000000000002888
-t1326365694
-s10376
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc
-c000000004F0EBBFE0000000000001811
-t1326365694
-s6161
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc
-c000000004F0EBBFE0000000000000D51
-t1326365694
-s3409
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc
-c000000004F0EBBFE0000000000000D79
-t1326365694
-s3449
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc
-c000000004F0EBBFE0000000000000C2F
-t1326365694
-s3119
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc
-c000000004F0EBBFE00000000000008E8
-t1326365694
-s2280
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc
-c000000004F0EBBFE0000000000003C8C
-t1326365694
-s15500
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc
-c000000004F0EBBFE00000000000010B5
-t1326365694
-s4277
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc
-c000000004F0EBBFE0000000000015093
-t1326365694
-s86163
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies944c9a360d12b541^e59bc1360d12b541^---0#1#0#--18"Check dependencies36"0FAED419-36C6-4830-8FEB-9F79B1F54325-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.781331
-e353504570.511661
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc5854c8390d12b541^9415833a0d12b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc0000000000000000^3620"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.o audio_coding/main/source/acm_amr.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amr.o36"DACEC8C7-FDB9-4F02-8CFF-65BF25883F95-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.877816
-e353504570.459133
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.ccc9e4e0390d12b541^f3aa763a0d12b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc0000000000000000^3632"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.o audio_coding/main/source/acm_amrwb.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_amrwb.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_amrwb.o36"983C3081-3700-4832-A109-C7380BE884CD-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.877830
-e353504570.465613
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc60e5e0390d12b541^9031773a0d12b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc0000000000000000^3620"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.o audio_coding/main/source/acm_cng.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_cng.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_cng.o36"B74F9DCF-0353-4171-8F69-245CEA79EE82-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.877877
-e353504570.369370
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.ccd9e8e0390d12b541^3b8f5e3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc0000000000000000^3686"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.o audio_coding/main/source/acm_codec_database.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_codec_database.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_codec_database.o36"75595D2C-AD3A-4B1E-B9E2-65E969EAAB5F-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.877891
-e353504570.020694
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.ccd5e9e0390d12b541^124c053a0d12b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc0000000000000000^3686"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.o audio_coding/main/source/acm_dtmf_detection.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_detection.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_detection.o36"51475F07-6034-4152-A371-408722E7B306-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.877867
-e353504570.511665
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc9be7e0390d12b541^c11e833a0d12b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc0000000000000000^3674"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.o audio_coding/main/source/acm_dtmf_playout.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_dtmf_playout.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_dtmf_playout.o36"BFBD6540-E67C-4C21-9951-E3787B6515DB-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.877896
-e353504570.465288
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cca7e8e0390d12b541^b728773a0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.o audio_coding/main/source/acm_g722.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g722.o36"F765BA7D-3054-46D0-A578-586690C6D756-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504569.967607
-e353504570.464948
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc19e3f7390d12b541^e606773a0d12b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc0000000000000000^3632"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.o audio_coding/main/source/acm_g7221.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221.o36"03A634AB-C668-4ACA-8BE3-D23391ECBC6F-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.183284
-e353504570.511717
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc83192f3a0d12b541^1c25833a0d12b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc0000000000000000^3638"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.o audio_coding/main/source/acm_g7221c.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7221c.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7221c.o36"976D648B-D53F-4AAE-B814-26B3117F1A59-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.375430
-e353504570.651078
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc7446603a0d12b541^d7a5a63a0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.o audio_coding/main/source/acm_g729.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g729.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g729.o36"F02E8297-8CE0-4452-91DA-20493C385C47-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.463757
-e353504570.683523
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc6e16773a0d12b541^f7cbaf3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc0000000000000000^3632"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.o audio_coding/main/source/acm_g7291.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_g7291.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_g7291.o36"FF31141E-FA88-4744-BD3D-AB7498CA846E-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.511587
-e353504570.899174
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc8e22833a0d12b541^ba30e63a0d12b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc0000000000000000^3680"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.o audio_coding/main/source/acm_generic_codec.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_generic_codec.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_generic_codec.o36"B34BE39E-C87E-4C31-9FE4-C1FC86AF4C2A-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.511640
-e353504570.806175
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.ccbc1f833a0d12b541^3d64ce3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc0000000000000000^3632"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.o audio_coding/main/source/acm_gsmfr.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_gsmfr.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_gsmfr.o36"2976E145-D12F-46BF-8570-D750C51F968C-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.512611
-e353504570.683907
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.ccfc56833a0d12b541^9dd4af3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.o audio_coding/main/source/acm_ilbc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_ilbc.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_ilbc.o36"4D7A7167-9DBD-4669-B745-B90979748394-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.512614
-e353504570.838146
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.ccdc65833a0d12b541^0ea1d63a0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.o audio_coding/main/source/acm_isac.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_isac.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_isac.o36"965CD471-87A6-4E29-92AB-7925E49A0050-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.512625
-e353504571.732609
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc2864833a0d12b541^088ebb3b0d12b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc0000000000000000^3632"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.o audio_coding/main/source/acm_neteq.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_neteq.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_neteq.o36"508188EC-3594-42F1-952D-79E55EF4C63A-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.512633
-e353504570.757352
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc6266833a0d12b541^4ce1c13a0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.o audio_coding/main/source/acm_opus.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_opus.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_opus.o36"3DD53CA4-E36D-4462-9A03-A05DD247A733-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.684847
-e353504570.933746
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc9d7faf3a0d12b541^c11eef3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc0000000000000000^3638"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.o audio_coding/main/source/acm_pcm16b.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcm16b.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcm16b.o36"216F3826-1D8F-479D-B851-C5AD2B09C932-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.684926
-e353504570.913962
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc5a83af3a0d12b541^1006ea3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.o audio_coding/main/source/acm_pcma.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcma.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcma.o36"B790E93C-48E6-47B8-8C70-AC8C291C4729-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.806143
-e353504571.018907
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc4984ce3a0d12b541^da92053b0d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc0000000000000000^3626"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.o audio_coding/main/source/acm_pcmu.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_pcmu.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_pcmu.o36"3DDABA44-2656-41D4-B406-6577EC8CDAD7-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.807428
-e353504571.031439
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cce6ccce3a0d12b541^b247083b0d12b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc0000000000000000^3620"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.o audio_coding/main/source/acm_red.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_red.o36"149C4D36-D619-473C-94B6-09926C25F715-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.839492
-e353504571.015776
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc821dd73a0d12b541^834e043b0d12b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc0000000000000000^3656"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.o audio_coding/main/source/acm_resampler.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_resampler.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_resampler.o36"B3F0DB48-7EFA-4DA3-A99A-3DF96EB6F7CA-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.652645
-e353504570.933699
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc3c31a73a0d12b541^3c16ef3a0d12b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc0000000000000000^3632"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.o audio_coding/main/source/acm_speex.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/acm_speex.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/acm_speex.o36"3C996984-F835-4035-A554-26ABFC661033-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.900540
-e353504571.102928
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc0ab9e63a0d12b541^7d591a3b0d12b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc0000000000000000^3692"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.o audio_coding/main/source/audio_coding_module.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.o36"B3DB68E4-04BA-4568-A51B-ECD7E456F447-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353504570.915310
-e353504571.443655
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cce78aea3a0d12b541^7193713b0d12b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc0000000000000000^3722"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.o audio_coding/main/source/audio_coding_module_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/main/interface -Iinterface -Iaudio_coding/codecs/cng/include -Iaudio_coding/codecs/g711/include -Iaudio_coding/codecs/g722/include -Iaudio_coding/codecs/ilbc/interface -Iaudio_coding/codecs/iSAC/main/interface -Iaudio_coding/codecs/iSAC/fix/interface -Iaudio_coding/codecs/pcm16b/include -Iaudio_coding/neteq/interface -I../common_audio/resampler/include -I../common_audio/signal_processing/include -I../common_audio/vad/include -I../system_wrappers/interface -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module_impl.o36"929DCBAD-EA4B-4EEC-9D00-C06FAD6C20E7-
-
-CLibtool /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a normal armv7
-s353504571.755284
-e353504571.774642
-r1
-xLibtool
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Libtool ../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a normal armv75377c13b0d12b541^9c88c63b0d12b541^---0#0#0#--963"Libtool ../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a normal armv7    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -filelist /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/audio_coding_module.build/Objects-normal/armv7/audio_coding_module.LinkFileList -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libaudio_coding_module.a36"0EC10080-CA53-48C7-A64C-1CEC335957F5-
-

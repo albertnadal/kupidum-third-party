@@ -1,658 +1,0 @@
-Tsystem_wrappers
-v5
-r1
-cCheck dependencies
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a normal armv7
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/system_wrappers.LinkFileList
-c000000004F61CE3F000000000000104A
-t1331809855
-s4170
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc
-c000000004F0EBBF60000000000000DA0
-t1326365686
-s3488
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc
-c000000004F0EBBF600000000000007BD
-t1326365686
-s1981
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc
-c000000004F0EBBF600000000000004A2
-t1326365686
-s1186
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc
-c000000004F0EBBF60000000000000E24
-t1326365686
-s3620
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc
-c000000004F0EBBF60000000000000429
-t1326365686
-s1065
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc
-c000000004F0EBBF600000000000007A3
-t1326365686
-s1955
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc
-c000000004F0EBBF600000000000008C1
-t1326365686
-s2241
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc
-c000000004F0EBBF60000000000000F76
-t1326365686
-s3958
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc
-c000000004F0EBBF60000000000000307
-t1326365686
-s775
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc
-c000000004F0EBBF600000000000003B0
-t1326365686
-s944
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc
-c000000004F0EBBF60000000000001833
-t1326365686
-s6195
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc
-c000000004F0EBBF60000000000000761
-t1326365686
-s1889
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc
-c000000004F0F633C000000000000064E
-t1326408508
-s1614
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc
-c000000004F0EBBF60000000000001A2E
-t1326365686
-s6702
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc
-c000000004F0EBBF600000000000013E6
-t1326365686
-s5094
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc
-c000000004F0EBBF60000000000001621
-t1326365686
-s5665
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc
-c000000004F0EBBF60000000000000CA1
-t1326365686
-s3233
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc
-c000000004F0EBBF6000000000000044B
-t1326365686
-s1099
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc
-c000000004F0EBBF600000000000003D7
-t1326365686
-s983
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc
-c000000004F0EBBF600000000000049E2
-t1326365686
-s18914
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc
-c000000004F0EBBF600000000000003B2
-t1326365686
-s946
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc
-c000000004F0EBBF60000000000001FB2
-t1326365686
-s8114
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc
-c000000004F0EBBF6000000000000630C
-t1326365686
-s25356
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc
-c000000004F0EBBF60000000000000D13
-t1326365686
-s3347
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5b7ca2bf0512b541^5a12e8bf0512b541^---0#1#0#--18"Check dependencies36"CC8DB10A-A190-476F-A8F4-AAA6D721DB20-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502655.959523
-e353502656.093444
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc96ccf5bf0512b541^520c18c00512b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc0000000000000000^3378"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.o aligned_malloc.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/aligned_malloc.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/aligned_malloc.o36"D45B7238-8C33-4DFB-98A6-F6F15D7C9F40-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502655.959529
-e353502656.137403
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc5bcef5bf0512b541^1f8523c00512b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc0000000000000000^3342"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.o atomic32.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/atomic32.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/atomic32.o36"DBF0278B-6C4B-49D3-8F80-58A394D95676-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502655.959544
-e353502656.093520
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc4ad2f5bf0512b541^52f117c00512b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc0000000000000000^3402"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.o condition_variable.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable.o36"5B392401-F747-4D74-BA9E-50010DCF5FD0-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502655.959540
-e353502656.136932
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc14cff5bf0512b541^cc5d23c00512b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc0000000000000000^3438"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.o condition_variable_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/condition_variable_posix.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/condition_variable_posix.o36"CBCD7EEE-7B42-4AAD-924A-E61D4F35541D-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502655.959733
-e353502656.052027
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc06d6f5bf0512b541^bc5b0dc00512b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc0000000000000000^3312"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.o cpu.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu.o36"9E9996AA-7EAB-4D48-B0E5-8DEEA2AFFD4A-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.136908
-e353502656.218644
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.ccd19623c00512b541^fa0c38c00512b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc0000000000000000^3366"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.o cpu_features.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_features.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_features.o36"875D90A6-13AC-418C-9DE3-0198ACAC1576-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502655.959814
-e353502656.136928
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc23dbf5bf0512b541^381323c00512b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc0000000000000000^3342"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.o cpu_info.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_info.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_info.o36"AC7FCEF8-AA64-43EC-91ED-55C98CD1E40B-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.053360
-e353502656.905407
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc0ad90dc00512b541^7ac5e7c00512b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc0000000000000000^3336"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.o cpu_mac.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/cpu_mac.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/cpu_mac.o36"2834E0A7-5CFF-45E8-AB05-7B460EC1880A-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.138815
-e353502656.218801
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc04aa23c00512b541^ce1a38c00512b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc0000000000000000^3390"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.o critical_section.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section.o36"E3D2F001-3257-4CFD-821D-F7CB8A602B13-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.219856
-e353502656.336837
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc757438c00512b541^064656c00512b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc0000000000000000^3426"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.o critical_section_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/critical_section_posix.o36"F03F8515-9654-4FAF-9744-55BD4A77A311-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.345775
-e353502657.668671
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc33c158c00512b541^42b3abc10512b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc0000000000000000^3354"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.o data_log_c.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_c.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_c.o36"B6F84D4A-BF5B-415D-97C2-357692A07FBF-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.480227
-e353502657.287533
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.ccc51d7bc00512b541^289c49c10512b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc0000000000000000^3378"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.o data_log_no_op.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/data_log_no_op.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/data_log_no_op.o36"ACC947FF-0561-4C48-AF89-A9A1F4508E37-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.793201
-e353502656.901143
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.ccd141cbc00512b541^c3b9e6c00512b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc0000000000000000^3324"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.o event.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event.o36"BC97E20D-3E3C-4341-875D-C56210CD9EE9-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.899458
-e353502657.098973
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.ccb972e6c00512b541^c05e19c10512b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc0000000000000000^3360"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.o event_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/event_posix.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/event_posix.o36"3362DD41-32FB-47AA-B49E-8A27F17BCA6A-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502656.906712
-e353502657.098927
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.ccb64ae8c00512b541^83f818c10512b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc0000000000000000^3348"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.o file_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/file_impl.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/file_impl.o36"35C35179-CF8A-4FC4-971F-F16B8CA524C9-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.100216
-e353502657.241091
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.ccbfd619c10512b541^5cc63dc10512b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc0000000000000000^3360"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.o list_no_stl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/list_no_stl.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/list_no_stl.o36"3B339B08-BB4D-4188-818E-B9CE5C2903EB-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.224844
-e353502657.654759
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc35b83dc10512b541^cf9ea7c10512b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc0000000000000000^3312"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.o map.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/map.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/map.o36"EB87B475-7588-4F34-B1F7-9B8483D37B51-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.287167
-e353502657.423877
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc05a849c10512b541^cf826cc10512b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc0000000000000000^3336"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.o rw_lock.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock.o36"A901ACCC-69CF-451F-AA1D-B05451E19C8A-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.293024
-e353502657.374142
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc8b324bc10512b541^66d95fc10512b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc0000000000000000^3372"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.o rw_lock_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/rw_lock_posix.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/rw_lock_posix.o36"8F9BF5F7-4806-4B26-89A8-270830313559-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.380734
-e353502659.425535
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc71aa61c10512b541^41f46cc30512b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc0000000000000000^3318"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.o sort.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/sort.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/sort.o36"BE70D1A1-0A42-4E83-96E6-CEDB04C4ADBC-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.425722
-e353502657.482103
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc14256dc10512b541^60767bc10512b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc0000000000000000^3330"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.o thread.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread.o36"83883480-EE8E-45B5-AA92-862223311756-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.483489
-e353502657.721996
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.ccb2f67bc10512b541^3335b9c10512b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc0000000000000000^3366"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.o thread_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/thread_posix.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/thread_posix.o36"AA363C03-4F12-4AC8-B0B0-3287E6695B48-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.672567
-e353502657.968769
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc86c8adc10512b541^fa60f9c10512b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc0000000000000000^3354"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.o trace_impl.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_impl.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_impl.o36"45682B7C-97E4-4543-872F-E43CA8CFBB34-
-
-CCompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353502657.724240
-e353502658.343599
-r1
-xCompileC
-x../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc1898b9c10512b541^4df657c20512b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc0000000000000000^3360"CompileC ../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.o trace_posix.cc normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/include -I../.. -I../../.. -Ispreadsortlib -I../interface -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/trace_posix.cc -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/trace_posix.o36"1CE03AEE-5518-4E57-80A6-EBC75C35FBEB-
-
-CLibtool /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a normal armv7
-s353502659.433177
-e353502659.453116
-r1
-xLibtool
-x/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Libtool ../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a normal armv78d0b6fc30512b541^deff73c30512b541^---0#0#0#--1027"Libtool ../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a normal armv7    cd /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos -filelist /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/system_wrappers.build/Debug-iphoneos/system_wrappers.build/Objects-normal/armv7/system_wrappers.LinkFileList -o /Users/ALTEN/iphone/webrtc/trunk/src/system_wrappers/source/../../../xcodebuild/Debug-iphoneos/libsystem_wrappers.a36"442CC1BB-112D-403E-9616-7560AAD79C5C-
-

@@ -1,3 +1,0 @@
-﻿  "nmake" no se reconoce como un comando interno o externo,
-  programa o archivo por lotes ejecutable.
-C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(33,5): error MSB3073: The command "nmake /NOLOGO /S /f Samples-vc.mak BUILD_MODE=debug VC_VER=8 clean" exited with code 9009.

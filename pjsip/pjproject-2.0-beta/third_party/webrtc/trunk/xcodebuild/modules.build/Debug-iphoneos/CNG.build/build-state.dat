@@ -1,86 +1,0 @@
-TCNG
-v5
-r1
-cCheck dependencies
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libCNG.a normal armv7
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libCNG.a
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/CNG.LinkFileList
-c000000004F61D5B60000000000000110
-t1331811766
-s272
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c
-c000000004F0EBBFB00000000000005C3
-t1326365691
-s1475
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c
-c000000004F0EBBFB00000000000057A5
-t1326365691
-s22437
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies666b99360d12b541^828fa9360d12b541^---0#1#0#--18"Check dependencies36"60CEE3E4-3460-4277-B184-C16086C8F304-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s353504566.664787
-e353504569.315980
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c62dcb5360d12b541^27fa50390d12b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c0000000000000000^2981"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.o audio_coding/codecs/cng/cng_helpfuns.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/codecs/cng/include -I../common_audio/signal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_helpfuns.c -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/cng_helpfuns.o36"6AC9B241-AFA4-4568-ABFF-856671B6A78E-
-
-CCompileC ../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.o /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s353504566.664759
-e353504569.329010
-r1
-xCompileC
-x../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.ce1d2b5360d12b541^323a54390d12b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c0000000000000000^2969"CompileC ../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.o audio_coding/codecs/cng/webrtc_cng.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/include -I.. -I../.. -Iaudio_coding/codecs/cng/include -I../common_audio/signal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/DerivedSources/armv7 -I/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/webrtc_cng.o36"B770B4A2-C797-436D-8DDA-03B94582B22F-
-
-CLibtool /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libCNG.a normal armv7
-s353504569.498304
-e353504569.513007
-r1
-xLibtool
-x/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libCNG.a
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Libtool ../../xcodebuild/Debug-iphoneos/libCNG.a normal armv7ccb67f390d12b541^195483390d12b541^---0#0#0#--899"Libtool ../../xcodebuild/Debug-iphoneos/libCNG.a normal armv7    cd /Users/ALTEN/iphone/webrtc/trunk/src/modules    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos -filelist /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/modules.build/Debug-iphoneos/CNG.build/Objects-normal/armv7/CNG.LinkFileList -o /Users/ALTEN/iphone/webrtc/trunk/src/modules/../../xcodebuild/Debug-iphoneos/libCNG.a36"16D31D08-7531-4982-8CA7-F7FD0235DF6B-
-

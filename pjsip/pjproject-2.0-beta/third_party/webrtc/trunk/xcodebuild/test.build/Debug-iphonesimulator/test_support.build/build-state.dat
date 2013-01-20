@@ -1,165 +1,0 @@
-Ttest_support
-v5
-r1
-cCheck dependencies
-cCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.o /Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/libtest_support.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F453DF80000000000000110
-t1329937912
-s272
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/libtest_support.a
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_support.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc
-c000000004F0EBBF500000000000003C1
-t1326365685
-s961
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc
-c000000004F0EBBF500000000000012EC
-t1326365685
-s4844
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc
-c000000004F0EBBF5000000000000092C
-t1326365685
-s2348
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc
-c000000004F0EBBF5000000000000078E
-t1326365685
-s1934
-
-N/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc
-c000000004F0EBBF50000000000000652
-t1326365685
-s1618
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8b54f03d1012b541^cedd023e1012b541^--1(21%IDEActivityLogMessage2@150"Unable to create directory /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386-353505342#18446744073709551615#0#-2#-----0#1#0#--18"Check dependencies36"A51A0C15-0839-4E92-8B6C-6B19C4B69ED1-
-
-CCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353505342.013643
-e353505345.637497
-r1
-xCompileC
-x../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.o
-x/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc31b3033e1012b541^2233a3411012b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc0000000000000000^3210"CompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.o testsupport/fileutils.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/test/../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -DUNIT_TEST -DGTEST_HAS_RTTI=0 -DGTEST_USE_OWN_TR1_TUPLE=1 -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/include -I../src -I.. -I. -I../testing/gtest/include -I../testing/gmock/include -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.dia -c /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/fileutils.cc -o /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/fileutils.o36"7EDB7878-ACC2-49A9-AA6C-B86DD3E33DD6-
-
-CCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353505342.013649
-e353505345.689148
-r1
-xCompileC
-x../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.o
-x/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc6aa6033e1012b541^a06eb0411012b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc0000000000000000^3228"CompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.o testsupport/frame_reader.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/test/../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -DUNIT_TEST -DGTEST_HAS_RTTI=0 -DGTEST_USE_OWN_TR1_TUPLE=1 -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/include -I../src -I.. -I. -I../testing/gtest/include -I../testing/gmock/include -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.dia -c /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_reader.cc -o /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_reader.o36"94266E0E-CB3F-4479-8832-5EEFCD5E525D-
-
-CCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353505342.013665
-e353505345.637925
-r1
-xCompileC
-x../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.o
-x/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.ccffae033e1012b541^b54fa3411012b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc0000000000000000^3228"CompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.o testsupport/frame_writer.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/test/../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -DUNIT_TEST -DGTEST_HAS_RTTI=0 -DGTEST_USE_OWN_TR1_TUPLE=1 -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/include -I../src -I.. -I. -I../testing/gtest/include -I../testing/gmock/include -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.dia -c /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/frame_writer.cc -o /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/frame_writer.o36"84503955-D4FE-4FAA-BD68-289C881EE472-
-
-CCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.o /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353505342.013690
-e353505344.513371
-r1
-xCompileC
-x../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.o
-x/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.ccafb5033e1012b541^116d83401012b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc0000000000000000^3234"CompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.o testsupport/packet_reader.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/test/../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -DUNIT_TEST -DGTEST_HAS_RTTI=0 -DGTEST_USE_OWN_TR1_TUPLE=1 -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/include -I../src -I.. -I. -I../testing/gtest/include -I../testing/gmock/include -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.dia -c /Users/ALTEN/iphone/webrtc/trunk/test/testsupport/packet_reader.cc -o /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/packet_reader.o36"3CF17D04-EFB1-44FA-901C-25367E71AD45-
-
-CCompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.o /Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s353505342.013621
-e353505347.023960
-r1
-xCompileC
-x../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.o
-x/Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/ALTEN/iphone/webrtc/trunk/test/test_suite.ccbdaa033e1012b541^b82106431012b541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc0000000000000000^3192"CompileC ../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.o test_suite.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/test/../third_party/llvm-build/Release+Asserts/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wnewline-eof -Wno-c++11-extensions -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -DUNIT_TEST -DGTEST_HAS_RTTI=0 -DGTEST_USE_OWN_TR1_TUPLE=1 -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -fno-threadsafe-statics -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/include -I../src -I.. -I. -I../testing/gtest/include -I../testing/gmock/include -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.dia -c /Users/ALTEN/iphone/webrtc/trunk/test/test_suite.cc -o /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_suite.o36"8E54E636-F701-4448-993F-D814F0AF94BE-
-
-CLibtool /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/libtest_support.a normal i386
-s353505347.086547
-e353505347.118560
-r0
-xLibtool
-x/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/libtest_support.a
-xnormal
-xi386
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: can't open file list file: /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_support.LinkFileList (No such file or directory)
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Libtool ../xcodebuild/Debug-iphonesimulator/libtest_support.a normal i386f64116431012b541^4f581e431012b541^-428"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: can't open file list file: /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_support.LinkFileList (No such file or directory)Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool failed with exit code 11(21%IDEActivityLogMessage2@126"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool failed with exit code 1-353505347#18446744073709551615#0#-2#--38"Apple Mach-O Librarian (libtool) Error--0#0#0#--937"Libtool ../xcodebuild/Debug-iphonesimulator/libtest_support.a normal i386    cd /Users/ALTEN/iphone/webrtc/trunk/test    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator -filelist /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/test.build/Debug-iphonesimulator/test_support.build/Objects-normal/i386/test_support.LinkFileList -o /Users/ALTEN/iphone/webrtc/trunk/test/../xcodebuild/Debug-iphonesimulator/libtest_support.a36"D1C3EB83-E933-48A4-A255-EEAB9574C8B1-
-

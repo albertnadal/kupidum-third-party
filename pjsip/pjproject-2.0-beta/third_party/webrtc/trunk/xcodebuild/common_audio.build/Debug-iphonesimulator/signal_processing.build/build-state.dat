@@ -1,737 +1,0 @@
-Tsignal_processing
-v5
-r1
-cCheck dependencies
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F453DF80000000000000110
-t1329937912
-s272
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/libsignal_processing.a
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_48khz.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_by_2.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_by_2_internal.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_fractional.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/signal_processing.LinkFileList
-c000000004F61D8BE0000000000001577
-t1331812542
-s5495
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/spl_sqrt.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/spl_sqrt_floor.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/spl_version.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/splitting_filter.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/sqrt_of_one_minus_x_squared.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/vector_scaling_operations.o
-t2
-s0
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c
-c000000004F0EBC080000000000000B7B
-t1326365704
-s2939
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c
-c000000004F0EBC080000000000000F4F
-t1326365704
-s3919
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c
-c000000004F0EBC0800000000000004C5
-t1326365704
-s1221
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c
-c000000004F0EBC080000000000004A3E
-t1326365704
-s19006
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c
-c000000004F0EBC080000000000000A9B
-t1326365704
-s2715
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c
-c000000004F0EBC080000000000002158
-t1326365704
-s8536
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c
-c000000004F0EBC080000000000000F76
-t1326365704
-s3958
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c
-c000000004F0EBC0800000000000009F8
-t1326365704
-s2552
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c
-c000000004F0EBC080000000000000690
-t1326365704
-s1680
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c
-c000000004F0EBC08000000000000042F
-t1326365704
-s1071
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c
-c000000004F0EBC080000000000000C07
-t1326365704
-s3079
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c
-c000000004F0EBC08000000000000059F
-t1326365704
-s1439
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c
-c000000004F0EBC080000000000000605
-t1326365704
-s1541
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c
-c000000004F0EBC080000000000000C7A
-t1326365704
-s3194
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c
-c000000004F0EBC0800000000000004CC
-t1326365704
-s1228
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c
-c000000004F0EBC0800000000000010F9
-t1326365704
-s4345
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c
-c000000004F0EBC080000000000002543
-t1326365704
-s9539
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c
-c000000004F0EBC0800000000000007CD
-t1326365704
-s1997
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c
-c000000004F0EBC080000000000001AAB
-t1326365704
-s6827
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c
-c000000004F0EBC0800000000000019FC
-t1326365704
-s6652
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c
-c000000004F0EBC080000000000000623
-t1326365704
-s1571
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample.c
-c000000004F0EBC080000000000004346
-t1326365704
-s17222
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_48khz.c
-c000000004F0EBC0800000000000017F1
-t1326365704
-s6129
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_by_2.c
-c000000004F0EBC080000000000001808
-t1326365704
-s6152
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_by_2_internal.c
-c000000004F0EBC080000000000005073
-t1326365704
-s20595
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_fractional.c
-c000000004F0EBC080000000000001FAD
-t1326365704
-s8109
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_sqrt.c
-c000000004F0EBC080000000000001491
-t1326365704
-s5265
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_sqrt_floor.c
-c000000004F0EBC08000000000000066B
-t1326365704
-s1643
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_version.c
-c000000004F0EBC0800000000000002FC
-t1326365704
-s764
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/splitting_filter.c
-c000000004F0EBC08000000000000215D
-t1326365704
-s8541
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/sqrt_of_one_minus_x_squared.c
-c000000004F0EBC08000000000000045D
-t1326365704
-s1117
-
-N/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/vector_scaling_operations.c
-c000000004F0EBC08000000000000115A
-t1326365704
-s4442
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_48khz.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_by_2.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_by_2_internal.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_fractional.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_sqrt.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_sqrt_floor.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_version.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/splitting_filter.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/sqrt_of_one_minus_x_squared.c
-r0
-
-CBuild AST from /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/vector_scaling_operations.c
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4739f03d1012b541^874e033e1012b541^---0#1#0#--18"Check dependencies36"AC7D8466-EB8F-45F2-8704-37C94E12F5D6-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505345.999365
-e353505346.110964
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c26fbff411012b541^e4661c421012b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c0000000000000000^3261"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.o signal_processing/auto_corr_to_refl_coef.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_corr_to_refl_coef.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_corr_to_refl_coef.o36"D45B734B-0E2D-49FA-BE2E-2DAF341D577C-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505345.999360
-e353505346.124750
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c30f1ff411012b541^0ff11f421012b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c0000000000000000^3225"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.o signal_processing/auto_correlation.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/auto_correlation.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/auto_correlation.o36"C8ADC1DE-FE81-4273-ADE4-89854406B750-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.126143
-e353505346.255193
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.cbe6720421012b541^005441421012b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c0000000000000000^3243"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.o signal_processing/complex_bit_reverse.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_bit_reverse.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_bit_reverse.o36"21E21A2F-6189-4C2C-BEDA-E047433D8A1A-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.126124
-e353505346.255678
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c066720421012b541^a37441421012b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c0000000000000000^3195"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.o signal_processing/complex_fft.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/complex_fft.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/complex_fft.o36"3C837F7D-DE79-43D1-82CE-68C5AFF26C30-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.256470
-e353505346.289093
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c82c541421012b541^ec154a421012b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c0000000000000000^3243"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.o signal_processing/copy_set_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/copy_set_operations.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/copy_set_operations.o36"EE8AE8EC-820E-4C26-BC11-B96DDC53FCB9-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.257587
-e353505346.288228
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c3a0842421012b541^730e4a421012b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c0000000000000000^3231"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.o signal_processing/cross_correlation.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/cross_correlation.o36"0EF73718-1A89-400A-A22E-195C76A7885D-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.289432
-e353505346.380871
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c26374a421012b541^b77f61421012b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c0000000000000000^3243"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.o signal_processing/division_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/division_operations.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/division_operations.o36"CC454DE8-7153-4287-9519-15682362E31D-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.289436
-e353505346.336686
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.cf0334a421012b541^8e7456421012b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c0000000000000000^3261"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.o signal_processing/dot_product_with_scale.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/dot_product_with_scale.o36"A3FB125E-845A-40E4-A934-F597376B8291-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.339259
-e353505346.415729
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c628761421012b541^376d6a421012b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c0000000000000000^3219"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.o signal_processing/downsample_fast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/downsample_fast.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/downsample_fast.o36"910D4C42-9D7B-494F-B9AE-519E9B44A9DB-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.383129
-e353505346.411398
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c64ac62421012b541^a45169421012b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c0000000000000000^3165"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.o signal_processing/energy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/energy.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/energy.o36"F33DF020-4FA6-406F-8CEB-7DDEB14761EF-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.412712
-e353505346.444482
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c70d169421012b541^6bd271421012b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c0000000000000000^3183"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.o signal_processing/filter_ar.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar.o36"56E8B4C0-0BC3-490D-8730-531254D68CDF-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.416982
-e353505346.444421
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c49d96a421012b541^cac471421012b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c0000000000000000^3237"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.o signal_processing/filter_ar_fast_q12.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ar_fast_q12.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ar_fast_q12.o36"A375B1F9-9C32-4BC0-A67D-F8C47F0999B7-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.445718
-e353505346.479545
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c814172421012b541^3fc47a421012b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c0000000000000000^3237"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.o signal_processing/filter_ma_fast_q12.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/filter_ma_fast_q12.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/filter_ma_fast_q12.o36"FC4FA959-F74D-469B-A9D1-2840A1A054B4-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.445721
-e353505346.479550
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.cf83572421012b541^29cd7a421012b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c0000000000000000^3237"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.o signal_processing/get_hanning_window.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_hanning_window.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_hanning_window.o36"C6ADBE6B-A24E-469B-9A5D-F23A08C8A1E6-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.480826
-e353505346.513774
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c6e317b421012b541^878883421012b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c0000000000000000^3237"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.o signal_processing/get_scaling_square.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/get_scaling_square.o36"7532D23B-B800-4705-965F-5B0A8136140A-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.480852
-e353505346.515311
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c963f7b421012b541^6ceb83421012b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c0000000000000000^3267"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.o signal_processing/ilbc_specific_functions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/ilbc_specific_functions.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/ilbc_specific_functions.o36"F4535875-356D-4C8D-9301-2175D95D8487-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505346.999480
-e353505347.116122
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.cdbf8ff421012b541^d4ba1d431012b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c0000000000000000^3219"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.o signal_processing/levinson_durbin.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/levinson_durbin.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/levinson_durbin.o36"5E6D914C-2299-4ADB-BD21-519D93D828CD-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505347.025247
-e353505347.085239
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.cea9106431012b541^07d215431012b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c0000000000000000^3225"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.o signal_processing/lpc_to_refl_coef.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/lpc_to_refl_coef.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/lpc_to_refl_coef.o36"04350CE3-8FA5-498D-BEAE-DA389C3C36AE-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505347.117408
-e353505347.320948
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c5e2a1e431012b541^7c2b52431012b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c0000000000000000^3237"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.o signal_processing/min_max_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/min_max_operations.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/min_max_operations.o36"ED051193-45E8-4C92-ACA7-A30A82C4DDDE-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505347.119755
-e353505347.320953
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c32c71e431012b541^763452431012b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c0000000000000000^3267"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.o signal_processing/randomization_functions.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/randomization_functions.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/randomization_functions.o36"75B60FA1-117B-4650-BAE4-94EE70057C4A-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s353505347.216879
-e353505347.320975
-r1
-xCompileC
-x../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.o
-x/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c56b637431012b541^b93852431012b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c0000000000000000^3225"CompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.o signal_processing/refl_coef_to_lpc.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ALTEN/iphone/webrtc/trunk/src/common_audio    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../third_party/llvm-build/Release+Asserts/bin/clang -x c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wnewline-eof -DCHROMIUM_BUILD -DWEBUI_TASK_MANAGER=1 -DENABLE_REMOTING=1 -DENABLE_P2P_APIS=1 -DENABLE_CONFIGURATION_POLICY -DENABLE_INPUT_SPEECH -DENABLE_NOTIFICATIONS -DENABLE_GPU=1 -DENABLE_EGLIMAGE=1 -DUSE_SKIA=1 -DENABLE_REGISTER_PROTOCOL_HANDLER=1 -DWEBRTC_TARGET_MAC_IPHONE -DMAC_IPHONE -DWEBRTC_MAC -DWEBRTC_THREAD_RR -DWEBRTC_CLOCK_TYPE_REALTIME -D__STDC_FORMAT_MACROS -DDYNAMIC_ANNOTATIONS_ENABLED=1 -DWTF_USE_DYNAMIC_ANNOTATIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/include -I.. -I../.. -Isignal_processing/include -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources/i386 -I/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/DerivedSources -Wall -Wendif-labels -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wheader-hygiene -Wno-char-subscripts -Wno-unused-function -Wno-unnamed-type-template-args -Wno-c++0x-compat -Wno-c++11-extensions -F/Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator -fno-strict-aliasing -fstack-protector-all -MMD -MT dependencies -MF /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.d --serialize-diagnostics /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.dia -c /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/refl_coef_to_lpc.c -o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/refl_coef_to_lpc.o36"51CAA47F-C230-4845-864C-5BD44AA7FDE9-
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_48khz.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_48khz.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_by_2.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_by_2.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_by_2_internal.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_by_2_internal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/resample_fractional.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/resample_fractional.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/spl_sqrt.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_sqrt.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/spl_sqrt_floor.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_sqrt_floor.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/spl_version.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/spl_version.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/splitting_filter.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/splitting_filter.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/sqrt_of_one_minus_x_squared.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/sqrt_of_one_minus_x_squared.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ../../xcodebuild/common_audio.build/Debug-iphonesimulator/signal_processing.build/Objects-normal/i386/vector_scaling_operations.o /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/signal_processing/vector_scaling_operations.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CLibtool /Users/ALTEN/iphone/webrtc/trunk/src/common_audio/../../xcodebuild/Debug-iphonesimulator/libsignal_processing.a normal i386
-r0
-
