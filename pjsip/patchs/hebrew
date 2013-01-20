@@ -1,0 +1,40 @@
+Index: jni/csipsimple-wrapper/src/pjsua_jni_addons.c
+===================================================================
+--- jni/csipsimple-wrapper/src/pjsua_jni_addons.c	(revisión: 1189)
++++ jni/csipsimple-wrapper/src/pjsua_jni_addons.c	(copia de trabajo)
+@@ -803,3 +803,21 @@
+ 	return PJ_SUCCESS;
+ }
+ 
++// 0016012012 patch to convert pj_str_t to Java String - ggb
++PJ_DECL(jstring) pj_ptr_to_string(const pj_str_t * str) {
++    jstring result = NULL;
++    char * dup_str = (char*)malloc(str->slen + 1);
++
++    strncpy(dup_str, str->ptr, str->slen);
++    dup_str[str->slen] = '\0';
++
++        JNIEnv *jni_env = 0;
++        ATTACH_JVM(jni_env);
++        result = (*jni_env)->NewStringUTF(jni_env, dup_str);
++        DETACH_JVM(jni_env);
++
++    free(dup_str);
++    return result;
++ }
++
++// 0016012012 end patch 
+Index: jni/csipsimple-wrapper/include/pjsua_jni_addons.h
+===================================================================
+--- jni/csipsimple-wrapper/include/pjsua_jni_addons.h	(revisión: 1189)
++++ jni/csipsimple-wrapper/include/pjsua_jni_addons.h	(copia de trabajo)
+@@ -135,6 +135,9 @@
+ PJ_DECL(pj_status_t) pjsua_acc_clean_all_registrations( pjsua_acc_id acc_id);
+ PJ_DECL(pj_status_t) update_transport(const pj_str_t *new_ip_addr);
+ PJ_DECL(pj_status_t) vid_set_android_window(pjsua_call_id call_id, jobject window);
++// 0016012012 patch to convert pj_str_t to Java String - ggb
++PJ_DECL(jstring) pj_ptr_to_string(const pj_str_t * str)
++// 0016012012 end patch
+ PJ_END_DECL
+ 
+ #ifdef __cplusplus
