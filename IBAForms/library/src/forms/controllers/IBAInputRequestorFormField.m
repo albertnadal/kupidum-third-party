@@ -19,6 +19,11 @@
 
 @implementation IBAInputRequestorFormField
 
+- (void)setReadOnly
+{
+    
+}
+
 #pragma mark -
 #pragma mark IBAInputRequestor
 
@@ -35,7 +40,7 @@
 
 	[[NSNotificationCenter defaultCenter] postNotificationName:IBAInputRequestorFormFieldActivated object:self userInfo:userInfo];
 	[userInfo release];
-	
+
 	if ([self hasDetailViewController]) {
 		// If the form field has a detailViewController, then it should be displayed, and the form field should
 		// be unselected when the detailViewController is popped back of the navigation stack

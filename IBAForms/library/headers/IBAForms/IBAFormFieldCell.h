@@ -25,6 +25,7 @@
 	IBAFormFieldStyle *formFieldStyle_;
 	BOOL styleApplied_;
 	BOOL active_;
+    UIImageView *pencilIcon;
 }
 
 @property (readwrite, retain) UIView *inputView;
@@ -33,6 +34,7 @@
 @property (nonatomic, retain) UILabel *label;
 @property (nonatomic, retain) IBAFormFieldStyle *formFieldStyle;
 @property (nonatomic, assign) BOOL styleApplied;
+@property (nonatomic, retain) UIImageView *pencilIcon;
 
 - (id)initWithFormFieldStyle:(IBAFormFieldStyle *)style reuseIdentifier:(NSString *)reuseIdentifier;
 - (void)activate;

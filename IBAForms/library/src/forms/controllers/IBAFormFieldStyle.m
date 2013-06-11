@@ -30,6 +30,7 @@
 @synthesize valueTextAlignment = valueTextAlignment_;
 @synthesize valueAutoresizingMask = valueAutoresizingMask_;
 @synthesize activeColor = activeColor_;
+@synthesize isReadOnly;
 
 - (void)dealloc {
 	IBA_RELEASE_SAFELY(labelTextColor_);

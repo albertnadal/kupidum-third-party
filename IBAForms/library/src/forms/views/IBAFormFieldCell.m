@@ -29,6 +29,7 @@
 @synthesize formFieldStyle = formFieldStyle_;
 @synthesize styleApplied = styleApplied_;
 @synthesize active = active_;
+@synthesize pencilIcon = pencilIcon_;
 
 - (void)dealloc {
 	IBA_RELEASE_SAFELY(inputView_);
@@ -54,7 +55,20 @@
 		self.label.autoresizingMask = style.labelAutoresizingMask;
 		self.label.adjustsFontSizeToFitWidth = YES;
 		self.label.minimumFontSize = 10;
+        self.label.numberOfLines = 2;
 		[self.cellView addSubview:self.label];
+
+        // Pencil icon
+        if(!style.isReadOnly)
+        {
+            pencilIcon = [[UIImageView alloc] initWithFrame:CGRectMake(268, 12, 20, 20)];
+            [pencilIcon setImage:[UIImage imageNamed:@"img_pencil.png"]];
+            [self.contentView addSubview:pencilIcon];
+        }
+        else
+        {
+            pencilIcon = nil;
+        }
 
 		// set the style after the views have been created
 		self.formFieldStyle = style;
@@ -88,8 +102,8 @@
 	self.label.font = self.formFieldStyle.labelFont;
 	self.label.textColor = self.formFieldStyle.labelTextColor;
 	self.label.textAlignment = self.formFieldStyle.labelTextAlignment;
-	self.label.backgroundColor = self.formFieldStyle.labelBackgroundColor;
-	self.backgroundColor = self.formFieldStyle.labelBackgroundColor;
+	self.label.backgroundColor = self.formFieldStyle.valueBackgroundColor;
+	self.backgroundColor = self.formFieldStyle.valueBackgroundColor; //self.formFieldStyle.labelBackgroundColor;
 
 	self.styleApplied = YES;
 }

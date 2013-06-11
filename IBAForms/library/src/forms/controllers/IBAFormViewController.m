@@ -78,9 +78,7 @@
 - (void)registerForNotifications {
 	[self registerSelector:@selector(inputManagerWillShow:) withNotification:UIKeyboardWillShowNotification];
 	[self registerSelector:@selector(inputManagerDidHide:) withNotification:UIKeyboardDidHideNotification];
-
 	[self registerSelector:@selector(formFieldActivated:) withNotification:IBAInputRequestorFormFieldActivated];
-
 	[self registerSelector:@selector(pushViewController:) withNotification:IBAPushViewController];
 	[self registerSelector:@selector(presentModalViewController:) withNotification:IBAPresentModalViewController];
 	[self registerSelector:@selector(dismissModalViewController:) withNotification:IBADismissModalViewController];
@@ -167,6 +165,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	IBAFormField *formField = [self.formDataSource formFieldAtIndexPath:indexPath];
+
+    if([formField isReadOnly])
+        return;
+
 	if ([formField hasDetailViewController]) {
 		// The row has a detail view controller that we should push on to the navigation stack
 		[[self navigationController] pushViewController:[formField detailViewController] animated:YES];
@@ -263,9 +265,15 @@
 }
 
 - (void)makeFormFieldVisible:(IBAFormField *)formField animated:(BOOL)animate {
-    if ([self shouldAutoScrollTableToActiveField]) {
+    if ([self shouldAutoScrollTableToActiveField])
+    {
         NSIndexPath *formFieldIndexPath = [self.formDataSource indexPathForFormField:formField];
-        [self.tableView scrollToRowAtIndexPath:formFieldIndexPath atScrollPosition:UITableViewScrollPositionMiddle animated:animate];
+        NSDictionary *userInfo = [[NSMutableDictionary alloc] init];
+        [userInfo setValue:formFieldIndexPath forKey:@"indexPath"];
+        [[NSNotificationCenter defaultCenter] postNotificationName:IBAInputRequestorShowFormField object:self userInfo:userInfo];
+        [userInfo release];
+
+        //[self.tableView scrollToRowAtIndexPath:formFieldIndexPath atScrollPosition:UITableViewScrollPositionMiddle animated:animate];
     }
 }
 
@@ -315,6 +323,7 @@
 - (CGFloat)tableView:(UITableView *)aTableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 	UITableViewCell *cell = [self.formDataSource tableView:aTableView cellForRowAtIndexPath:indexPath];
 	[cell sizeToFit];
+
 	return cell.bounds.size.height;
 }
 

@@ -24,6 +24,7 @@
 @synthesize formFieldStyle = formFieldStyle_;
 @synthesize nullable = nullable_;
 @synthesize valueTransformer = valueTransformer_;
+@synthesize isReadOnly = isReadOnly_;
 
 #pragma mark -
 #pragma mark Initialisation and memory management

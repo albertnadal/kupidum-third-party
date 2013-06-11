@@ -27,6 +27,7 @@
 	IBAFormFieldStyle *formFieldStyle_;
 	BOOL nullable_;
 	NSValueTransformer *valueTransformer_;
+    bool isReadOnly;
 }
 
 @property (nonatomic, copy) NSString *keyPath;
@@ -37,6 +38,7 @@
 @property (nonatomic, retain) IBAFormFieldStyle *formFieldStyle;
 @property (nonatomic, assign, getter=isNullable) BOOL nullable;
 @property (nonatomic, retain) NSValueTransformer *valueTransformer;
+@property (atomic) bool isReadOnly;
 
 
 - (id)initWithKeyPath:(NSString *)keyPath title:(NSString *)title valueTransformer:(NSValueTransformer *)valueTransformer;

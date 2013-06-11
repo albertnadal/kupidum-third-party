@@ -31,11 +31,13 @@
 	[super dealloc];
 }
 
-- (id)initWithKeyPath:(NSString *)keyPath title:(NSString *)title valueTransformer:(NSValueTransformer *)valueTransformer
-	selectionMode:(IBAPickListSelectionMode)selectionMode options:(NSArray *)pickListOptions {
-	if ((self = [super initWithKeyPath:keyPath title:title valueTransformer:valueTransformer])) {
+- (id)initWithKeyPath:(NSString *)keyPath title:(NSString *)title valueTransformer:(NSValueTransformer *)valueTransformer selectionMode:(IBAPickListSelectionMode)selectionMode options:(NSArray *)pickListOptions isReadOnly:(bool)readOnly
+{
+	if ((self = [super initWithKeyPath:keyPath title:title valueTransformer:valueTransformer]))
+    {
 		self.selectionMode = selectionMode;
 		self.pickListOptions = pickListOptions;
+        self.isReadOnly = readOnly;
 	}
 
 	return self;
@@ -48,10 +50,22 @@
 	if (self.formFieldValue != nil) {
 		NSMutableArray *itemNames = [[[NSMutableArray alloc] init] autorelease];
 
-		for (id<IBAPickListOption> item in [self pickListOptions]) {
+		for (id<IBAPickListOption> item in [self pickListOptions])
+        {
 			NSString *itemName = [item name];
-			if (([[self formFieldValue] containsObject:item]) && (itemName.length > 0)) {
-				[itemNames addObject:itemName];
+			if (([[self formFieldValue] containsObject:item]) && (itemName.length > 0))
+            {
+                NSString *final_string = itemName;
+                
+                NSRange range_open_clautador = [itemName rangeOfString:@"["];
+                NSRange range_close_clautador = [itemName rangeOfString:@"]"];
+                if(range_open_clautador.location < range_close_clautador.location)
+                {
+                    int range_length = range_close_clautador.location - (range_open_clautador.location + 1);
+                    final_string = [itemName stringByReplacingCharactersInRange:NSMakeRange(range_open_clautador.location, range_length + 2) withString:@""];
+                }
+
+				[itemNames addObject:final_string];
 			}
 		}
 		
@@ -131,12 +145,25 @@
 	return [[self class] pickListOptionsForStrings:optionNames font:[UIFont systemFontOfSize:16]];
 }
 
-+ (NSArray *)pickListOptionsForStrings:(NSArray *)optionNames font:(UIFont *)font {
++ (NSArray *)pickListOptionsForStrings:(NSArray *)optionNames font:(UIFont *)font
+{
 	NSMutableArray *options = [NSMutableArray array];
-	for (NSString *optionName in optionNames) {
-		[options addObject:[[[IBAPickListFormOption alloc] initWithName:optionName iconImage:nil font:font] autorelease]];
+	for (NSString *optionName in optionNames)
+    {
+        NSString *final_string = optionName;
+
+/*        NSRange range_open_clautador = [optionName rangeOfString:@"["];
+        NSRange range_close_clautador = [optionName rangeOfString:@"]"];
+        if(range_open_clautador.location < range_close_clautador.location)
+        {
+            int range_length = range_close_clautador.location - (range_open_clautador.location + 1);
+//            NSString *value = [optionName substringWithRange:NSMakeRange(range_open_clautador.location + 1, range_length)];
+            final_string = [optionName stringByReplacingCharactersInRange:NSMakeRange(range_open_clautador.location, range_length + 2) withString:@""];
+        }*/
+
+		[options addObject:[[[IBAPickListFormOption alloc] initWithName:final_string iconImage:nil font:font] autorelease]];
 	}
-	
+
 	return options;
 }
 

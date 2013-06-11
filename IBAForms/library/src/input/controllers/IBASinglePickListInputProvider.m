@@ -122,9 +122,19 @@
 	
 	id<IBAPickListOption> pickListOption = [self.pickListOptions objectAtIndex:row];
 
-	label.text = pickListOption.name;
+    NSString *nameWithoutValue = pickListOption.name;
+
+    NSRange range_open_clautador = [pickListOption.name rangeOfString:@"["];
+    NSRange range_close_clautador = [pickListOption.name rangeOfString:@"]"];
+    if(range_open_clautador.location < range_close_clautador.location)
+    {
+        int range_length = range_close_clautador.location - (range_open_clautador.location + 1);
+        nameWithoutValue = [pickListOption.name stringByReplacingCharactersInRange:NSMakeRange(range_open_clautador.location, range_length + 2) withString:@""];
+    }
+
+	label.text = nameWithoutValue;
 	label.font = pickListOption.font;
-	
+
 	return label;
 }
 
@@ -147,8 +157,22 @@
 }
 
 - (void)updateSelectedOption {
+    id<IBAPickListOption> selectedPickListOption  = nil;
+
 	// Updates the UI to display the selected option, or defaults to the first option if none are already selected
-	id<IBAPickListOption> selectedPickListOption = [self.inputRequestor.inputRequestorValue anyObject];
+    if([self.inputRequestor.inputRequestorValue count])
+    {
+        if([self.inputRequestor.inputRequestorValue respondsToSelector:@selector(objectAtIndex:)])
+        {
+            selectedPickListOption = [self.inputRequestor.inputRequestorValue objectAtIndex:0];
+        }
+        else if([self.inputRequestor.inputRequestorValue respondsToSelector:@selector(anyObject)])
+        {
+            selectedPickListOption = [self.inputRequestor.inputRequestorValue anyObject];
+        }
+    }
+
+	//id<IBAPickListOption> selectedPickListOption = [self.inputRequestor.inputRequestorValue anyObject];
 	if (nil != selectedPickListOption) {
 		NSInteger selectedRow = [self.pickListOptions indexOfObject:selectedPickListOption];
 		[self.pickerView selectRow:selectedRow inComponent:0 animated:YES];

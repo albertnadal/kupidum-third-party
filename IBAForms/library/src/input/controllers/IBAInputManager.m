@@ -21,6 +21,7 @@
 #import "IBAInputNavigationToolbar.h"
 #import "IBAMultiplePickListInputProvider.h"
 #import "IBASinglePickListInputProvider.h"
+#import "IBAFormConstants.h"
 
 @interface UIResponder (InputViews)
 - (void)setInputView:(UIView *)inputView;
@@ -129,12 +130,14 @@
 
 		id<IBAInputProvider>newInputProvider = [self inputProviderForRequestor:activeInputRequestor_];
 		[self displayInputProvider:newInputProvider forInputRequestor:inputRequestor];
-		
+
 		[activeInputRequestor_ activate];
 		newInputProvider.inputRequestor = activeInputRequestor_;
 	} else {
 		// The new input requestor is nil, so hide the input manager's view
 		[[activeInputRequestor_ responder] resignFirstResponder];
+        [[NSNotificationCenter defaultCenter] postNotificationName:IBAInputRequestorRestoreOriginalProfileSize object:self userInfo:nil];
+
 		activeInputRequestor_ = nil;
 	}
 	

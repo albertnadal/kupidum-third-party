@@ -21,7 +21,8 @@
 	CGRect labelFrame_;
 	UITextAlignment labelTextAlignment_;
 	UIViewAutoresizing labelAutoresizingMask_;
-	
+    bool isReadOnly;
+
 	UIColor *valueTextColor_;
 	UIColor *valueBackgroundColor_;
 	UIFont *valueFont_;
@@ -38,6 +39,7 @@
 @property (nonatomic, assign) CGRect labelFrame;
 @property (nonatomic, assign) UITextAlignment labelTextAlignment;
 @property (nonatomic, assign) UIViewAutoresizing labelAutoresizingMask;
+@property (atomic) bool isReadOnly;
 
 @property (nonatomic, retain) UIColor *valueTextColor;
 @property (nonatomic, retain) UIColor *valueBackgroundColor;

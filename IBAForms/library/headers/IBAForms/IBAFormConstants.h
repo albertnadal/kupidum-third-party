@@ -24,23 +24,25 @@
 #define IBADismissModalViewController @"IBADismissModalViewController"
 #define IBAViewControllerKey @"IBAViewControllerKey"
 #define IBAInputRequestorFormFieldActivated @"IBAInputRequestorFormFieldActivated"
+#define IBAInputRequestorShowFormField @"IBAInputRequestorShowFormField"
 #define IBAInputRequestorFormFieldDeactivated @"IBAInputRequestorFormFieldDeactivated"
+#define IBAInputRequestorRestoreOriginalProfileSize @"IBAInputRequestorRestoreOriginalProfileSize"
 #define IBAFormFieldKey @"IBAFormFieldKey"
 
 // Form field label style
 #define IBAFormFieldLabelX 10
-#define IBAFormFieldLabelY 5
-#define IBAFormFieldLabelWidth 60
-#define IBAFormFieldLabelHeight 30
+#define IBAFormFieldLabelY 2
+#define IBAFormFieldLabelWidth 80 //60
+#define IBAFormFieldLabelHeight 36
 #define IBAFormFieldLabelFont [UIFont systemFontOfSize:12]
 #define IBAFormFieldLabelTextColor [UIColor grayColor]
 #define IBAFormFieldLabelTextAlignment UITextAlignmentRight
 #define IBAFormFieldLabelBackgroundColor [UIColor whiteColor]
 
 // Form field value style
-#define IBAFormFieldValueX 75
+#define IBAFormFieldValueX 100 //75
 #define IBAFormFieldValueY 10
-#define IBAFormFieldValueWidth 235
+#define IBAFormFieldValueWidth 210 //235
 #define IBAFormFieldValueHeight 26
 #define IBAFormFieldValueFont [UIFont systemFontOfSize:16]
 #define IBAFormFieldValueTextColor [UIColor blackColor]

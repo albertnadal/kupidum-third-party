@@ -19,4 +19,6 @@
 
 }
 
+- (void)setReadOnly;
+
 @end
